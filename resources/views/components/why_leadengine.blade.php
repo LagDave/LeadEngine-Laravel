@@ -13,7 +13,7 @@
 
         </div>
         <div>
-            <img src="{{asset('images/why-lead-engine.PNG')}}" alt="">
+            <img src="{{asset('images/why-lead-engine.png')}}" alt="">
         </div>
 
     </div>

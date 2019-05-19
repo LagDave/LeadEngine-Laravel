@@ -133,7 +133,7 @@
 
         <div class='text-container'>
 
-            <img src="http://leadengine.live/home/assets/images/wide_logo.png">
+            <img src="{{asset('images/wide_logo.png')}}">
             <br><br>
             <p style='margin:10px 0' class="text-montserrat text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> No Setup Fees</p>
             <p style='margin:10px 0' class="text-montserrat text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> No Cancellation Fees</p>
