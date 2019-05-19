@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f225ea-b0fb-4053-ae19-b2f1d3cc1610" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/loader_summoner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/components/loader.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SignupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SignupController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/paypal_buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/paypal_buttons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/nav_items_mobile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/nav_items_mobile.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/plan_component.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/plan_component.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/scroll_nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/scroll_nav.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/signup_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/signup_form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/plans_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/plans_page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/signup_form_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/signup_form_page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/success.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/success.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +25,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/js/paypal_buttons.js">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SignupController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+            <state relative-caret-position="235">
+              <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,7 +72,6 @@
         <option value="$PROJECT_DIR$/resources/views/emails/mail.blade.php" />
         <option value="$PROJECT_DIR$/public/css/success.css" />
         <option value="$PROJECT_DIR$/resources/views/components/why_leadengine.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/SignupController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/components/nav_items_mobile.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/scroll_nav.blade.php" />
@@ -95,6 +84,7 @@
         <option value="$PROJECT_DIR$/resources/views/pages/plans_page.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/pages/success.blade.php" />
         <option value="$PROJECT_DIR$/public/js/paypal_buttons.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/SignupController.php" />
       </list>
     </option>
   </component>
@@ -269,12 +259,12 @@
       <updated>1558154221230</updated>
       <workItem from="1558154222751" duration="1669000" />
       <workItem from="1558186021579" duration="15981000" />
-      <workItem from="1558215264074" duration="11728000" />
+      <workItem from="1558215264074" duration="12012000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29378000" />
+    <option name="totallyTimeSpent" value="29662000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -326,17 +316,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/app/Http/Controllers/SignupController.php</url>
-          <line>72</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
@@ -542,16 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SignupController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -633,6 +602,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/paypal_buttons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/pages/success.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -640,10 +616,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/paypal_buttons.js">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SignupController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
+        <state relative-caret-position="235">
+          <caret line="65" column="21" selection-start-line="65" selection-start-column="21" selection-end-line="65" selection-end-column="21" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

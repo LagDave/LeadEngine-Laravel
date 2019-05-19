@@ -62,8 +62,8 @@ class SignupController extends Controller
     }
 
     public function sendMail(){
-        $to_name = 'rdavephp';
-        $to_email = 'rdavephp@gmail.com';
+        $to_name = 'Daniel Bautista';
+        $to_email = 'LE.kevin.sutton@gmail.com';
         $data = array();
 
         Mail::send('emails.mail', $data, function($message) use ($to_name, $to_email) {
