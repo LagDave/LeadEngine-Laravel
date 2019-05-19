@@ -75,8 +75,9 @@ class SignupController extends Controller
         return redirect(route('signup.success'));
     }
 
-    public function success(){
+    public function success(Request $request){
         return view('pages/success');
+        $request->session()->flush();
     }
 
 }

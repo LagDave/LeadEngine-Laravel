@@ -12,7 +12,7 @@
         <div class='nav-items'>
 
 
-            <a class='text-montserrat text-normal nav-item' href="http://leadengine.live/web">Home</a>
+            <a class='text-montserrat text-normal nav-item' href="{{route('home')}}">Home</a>
             <a target='_blank' href='https://calendly.com/leadengine-support/15min'
                class='text-montserrat text-normal nav-item'>Schedule Call</a>
             <a onclick='showPricingPage()' class='text-montserrat text-normal nav-item'>Pricing</a>

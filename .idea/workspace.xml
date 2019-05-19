@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41f225ea-b0fb-4053-ae19-b2f1d3cc1610" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/css/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/js/loader_summoner.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/components/loader.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SignupController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SignupController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/paypal_buttons.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/paypal_buttons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/nav_items_mobile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/nav_items_mobile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/plan_component.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/plan_component.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/scroll_nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/scroll_nav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/components/signup_form.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/signup_form.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/why_leadengine.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/why_leadengine.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/plans_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/plans_page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/signup_form_page.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/signup_form_page.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/pages/success.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/success.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +28,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/components/signup_form.blade.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/pages/success.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="135" column="31" lean-forward="true" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="31" />
+            <state relative-caret-position="198">
+              <caret line="12" column="78" lean-forward="true" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/js/paypal_buttons.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -58,20 +78,23 @@
         <option value="$PROJECT_DIR$/public/css/jumbotron.css" />
         <option value="$PROJECT_DIR$/public/js/industries_modal_summoner.js" />
         <option value="$PROJECT_DIR$/resources/views/partials/bottom.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/signup_form_page.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/plan_component.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/pages/plans_page.blade.php" />
-        <option value="$PROJECT_DIR$/public/js/paypal_buttons.js" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/resources/views/emails/mail.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/success.css" />
+        <option value="$PROJECT_DIR$/resources/views/components/why_leadengine.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/SignupController.php" />
         <option value="$PROJECT_DIR$/routes/web.php" />
-        <option value="$PROJECT_DIR$/public/css/success.css" />
-        <option value="$PROJECT_DIR$/resources/views/pages/success.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/scroll_nav.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/components/nav_items_mobile.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/components/why_leadengine.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/scroll_nav.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/signup_form_page.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/loader.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/loader.css" />
+        <option value="$PROJECT_DIR$/public/js/loader_summoner.js" />
         <option value="$PROJECT_DIR$/resources/views/components/signup_form.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/components/plan_component.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/plans_page.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/pages/success.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/paypal_buttons.js" />
       </list>
     </option>
   </component>
@@ -162,7 +185,9 @@
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -183,20 +208,13 @@
             <path>
               <item name="leadengine" type="b2602c69:ProjectViewProjectNode" />
               <item name="leadengine" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leadengine" type="b2602c69:ProjectViewProjectNode" />
               <item name="leadengine" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leadengine" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leadengine" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -251,18 +269,18 @@
       <updated>1558154221230</updated>
       <workItem from="1558154222751" duration="1669000" />
       <workItem from="1558186021579" duration="15981000" />
-      <workItem from="1558215264074" duration="7494000" />
+      <workItem from="1558215264074" duration="11728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25144000" />
+    <option name="totallyTimeSpent" value="29378000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49921012" visible="true" weight="0.23903178" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49921012" visible="true" weight="0.23903178" />
       <window_info id="Structure" order="1" sideWeight="0.5007899" side_tool="true" weight="0.20877458" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -276,7 +294,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.328594" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.75039494" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.73459715" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.328594" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -308,6 +326,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/Http/Controllers/SignupController.php</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
@@ -461,13 +490,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="79" column="17" selection-start-line="79" selection-start-column="17" selection-end-line="79" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/jumbotron.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -489,31 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/signup_form_page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/plans_page.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/plan_component.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/mail.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -531,54 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SignupController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="78" column="37" selection-start-line="78" selection-start-column="37" selection-end-line="78" selection-end-column="37" />
-          <folding>
-            <element signature="e#40#68#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/pages/success.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/scroll_nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/components/nav_items_mobile.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/paypal_buttons.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="65">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/success.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
@@ -593,10 +542,108 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SignupController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="79" column="37" selection-start-line="79" selection-start-column="37" selection-end-line="79" selection-end-column="37" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="10" column="44" lean-forward="true" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/nav_items_mobile.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="1" column="71" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/components/signup_form.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="135" column="31" lean-forward="true" selection-start-line="135" selection-start-column="31" selection-end-line="135" selection-end-column="31" />
+        <state relative-caret-position="165">
+          <caret line="5" column="16" lean-forward="true" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/signup_form_page.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/plan_component.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1452">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <marker date="1558230535735" expanded="false" signature="879:956" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/plans_page.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="30" column="32" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/loader_summoner.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/loader.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="72" column="18" selection-start-line="72" selection-start-column="18" selection-end-line="72" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/loader.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/components/scroll_nav.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="26" selection-start-line="25" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/pages/success.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="78" lean-forward="true" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/paypal_buttons.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="69" column="31" selection-start-line="69" selection-start-column="31" selection-end-line="69" selection-end-column="31" />
         </state>
       </provider>
     </entry>

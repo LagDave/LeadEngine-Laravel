@@ -1,4 +1,6 @@
 @include('partials.top')
+{{-- Page Specific stylesheets --}}
+<link rel="stylesheet" href="{{asset('css/loader.css')}}">
 
 {{-- Navigation Bar --}}
 @include('components.scroll_nav')
@@ -19,8 +21,11 @@
     {{-- Case Study Component --}}
     @include('components.case_study_component')
 
+@include('components.loader')
+
 @include('partials.bottom')
 {{-- Page Specific Scripts --}}
 <script src="{{asset('js/static_navbar.js')}}"></script>
 <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+<script src="{{asset('js/loader_summoner.js')}}"></script>
 <script src='{{asset('js/paypal_buttons.js')}}'></script>

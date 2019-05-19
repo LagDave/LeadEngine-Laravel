@@ -18,7 +18,8 @@
             Your respective client success manager will be in touch within the next couple of hours.<br>
             For more questions, email us at support@leadengine.live    </p>
         <br>
-        <a target="_blank" href="https://web.facebook.com/LeadEngineB2B/" class="btn btn-lg btn-blue">Visit and <i class="fas fa-thumbs-up"></i> our <i class="fab fa-facebook-square"></i> Page</a>
+        <a href='https://calendly.com/leadengine-support/15min' class="btn btn-blue">Schedule a Discussion</a>
+
     </div>
 </div>
 <br><br><br>

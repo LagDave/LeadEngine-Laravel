@@ -1,7 +1,7 @@
 <?php
 
 // Home Route
-Route::get('/', 'HomeController@index');
+Route::get('/', 'HomeController@index')->name('home');
 
 // Sign Up Process Routes
 Route::get('/signup', 'SignupController@index')->name('signup.index');

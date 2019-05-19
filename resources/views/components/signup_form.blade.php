@@ -1,6 +1,6 @@
 <div class="container">
     <div class="form-container">
-        <form method='POST' action="{{route('signup.validateForm')}}" class="form">
+        <form onsubmit="showLoader()"  method='POST' action="{{route('signup.validateForm')}}" class="form">
             @csrf
             <p class="text-medium text-montserrat">SIGN UP NOW</p>
             <br>
@@ -122,6 +122,8 @@
 
             <br>
             <button class="btn btn-blue btn-wide">SIGNUP</button>
+
+
             <div class="images-container">
 
                 <img src="https://myprospectengine.com/images/seal.secure.png" alt="">

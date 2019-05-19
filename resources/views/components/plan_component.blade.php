@@ -17,7 +17,7 @@
 
         </div>
         <br>
-        <div style='margin-top:auto' class="button-container">
+        <div style='margin-top:auto; display: flex; align-items: center; justify-content: center' class="button-container">
             <div id="paypal-button"></div>
         </div>
     </div>
@@ -42,7 +42,7 @@
 
         </div>
         <br>
-        <div style='margin-top:auto' class="button-container">
+        <div style='margin-top:auto; display: flex; align-items: center; justify-content: center' class="button-container">
             <div id="paypal-button2"></div>
         </div>
     </div>

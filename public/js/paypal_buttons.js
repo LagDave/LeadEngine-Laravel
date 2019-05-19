@@ -2,7 +2,7 @@
 // Basic Plan
 paypal.Button.render({
     // Configure environment
-    env: 'sandbox',
+    env: 'production',
     client: {
         sandbox: 'AfP1bnFlqbbeoVW-y863YUTo3NmjyzYHlPSLOPuvJ6R2_zfmEXfjqj1oFkrEN0qTPLQsxHmufjJjhk_q',
         production: 'AVKYeWo_SNR5CPffqjvYtg6STTakK8dy9rmtox8KxkXGz8w_r-7F0i9PMjIvG8gtMhEKPkBR1mrDJ6D-'
@@ -33,7 +33,7 @@ paypal.Button.render({
     // Execute the payment
     onAuthorize: function (data, actions) {
         return actions.payment.execute().then(function () {
-            window.alert('Thank you for your purchase! Click OK.');
+            showLoader();
             window.location.href = "http://localhost:8000/signup/sendMail";
         });
     }
@@ -67,7 +67,7 @@ paypal.Button.render({
         return actions.payment.create({
             transactions: [{
                 amount: {
-                    total: '1',
+                    total: '0.1',
                     currency: 'USD'
                 }
             }]
@@ -76,7 +76,7 @@ paypal.Button.render({
     // Execute the payment
     onAuthorize: function (data, actions) {
         return actions.payment.execute().then(function () {
-            window.alert('Thank you for your purchase! Click OK.');
+            showLoader();
             window.location.href = "http://signup.leadengine.live/signup/sendMail";
         });
     }
