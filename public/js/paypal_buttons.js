@@ -34,7 +34,7 @@ paypal.Button.render({
     onAuthorize: function (data, actions) {
         return actions.payment.execute().then(function () {
             showLoader();
-            window.location.href = "http://localhost:8000/signup/sendMail";
+            window.location.href = "http://web.leadengine.live/signup/sendMail";
         });
     }
 }, '#paypal-button');
@@ -77,7 +77,7 @@ paypal.Button.render({
     onAuthorize: function (data, actions) {
         return actions.payment.execute().then(function () {
             showLoader();
-            window.location.href = "http://signup.leadengine.live/signup/sendMail";
+            window.location.href = "http://web.leadengine.live/signup/sendMail";
         });
     }
 }, '#paypal-button2');
