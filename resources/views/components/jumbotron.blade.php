@@ -32,7 +32,7 @@
         </nav>
 
         {{-- Nav Items Mobile --}}
-        @include('components.nav_items_mobile')
+    @include('components.nav_items_mobile')
 
 
         <div class="jumbo-main-container">

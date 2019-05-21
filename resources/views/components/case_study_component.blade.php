@@ -102,13 +102,13 @@
                 </p>
                 <p style='margin-bottom:5px' class="mt-auto text-barlow text-bold text-normal">Alena Griffey, <span
                             class='text-orange'>Mortgage Loan Officer</span></p>
-                <p class="margin-0 text-nano text-montserrat">Trusted Home Loans</p>
-                <div style='margin-top:5px' class="stars-container">
+                    <p class="margin-0 text-nano text-montserrat">Trusted Home Loans</p>
+                    <div style='margin-top:5px' class="stars-container">
 
-                    <i class="fas text-orange fa-star"></i>
-                    <i class="fas text-orange fa-star"></i>
-                    <i class="fas text-orange fa-star"></i>
-                    <i class="fas text-orange fa-star"></i>
+                        <i class="fas text-orange fa-star"></i>
+                        <i class="fas text-orange fa-star"></i>
+                        <i class="fas text-orange fa-star"></i>
+                        <i class="fas text-orange fa-star"></i>
                     <i class="fas text-orange fa-star"></i>
 
                 </div>
