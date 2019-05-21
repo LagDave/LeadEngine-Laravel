@@ -87,16 +87,7 @@ button:focus {
 }
 
 .text-primary {
-  font-family: "Amaranth";
-}
-.text-verdana {
-  font-family: "Poppins";
-}
-.text-primary {
-  font-family: "Acme";
-}
-.text-wire-one {
-  font-family: "Amaranth";
+  font-family: "Open Sans Condensed";
 }
 .text-secondary{
   font-family: 'Roboto';
