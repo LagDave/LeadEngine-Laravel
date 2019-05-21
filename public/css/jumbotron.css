@@ -51,7 +51,7 @@
 /* Jumbo Navigation Component */
 .jumbotron nav {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 1.8fr;
   padding: 20px 0;
 }
 .jumbotron nav .brand {
@@ -168,15 +168,23 @@
 /* Jumbo Main Container */
 .jumbotron .jumbo-main-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 500px;
+}
+.jumbotron .jumbo-main-container .jumbo-text{
+  margin-top: 70px;
+  margin-left: 50px;
+  padding-bottom: 20px;
 }
 .jumbotron .jumbo-main-container .jumbo-image{
   display:flex;
   flex-direction: column;
   align-items: flex-end
 }
+
 .jumbotron .jumbo-main-container img{
-  width:80%;
+  width:480px;
+  bottom:0;
+  position: absolute;
 }
 
 
@@ -215,7 +223,7 @@
   }
 }
 
-@media (max-width: 1100px) {
+@media (max-width: 1300px) {
   .jumbo-right-hand p:nth-child(1),
   .jumbo-divider,
   .jumbotron nav .nav-items,
@@ -246,6 +254,8 @@
   }
   .jumbotron .jumbo-main-container .jumbo-text{
     text-align: center;
+    margin-top: 30px;
+    margin-left: 0px;
   }
   .jumbotron .jumbo-main-container .jumbo-image{
     display: none
