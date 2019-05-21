@@ -1,7 +1,7 @@
 <div>
 
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">A</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">A</p>
 
         <input type="checkbox" name='industries_list[]' value='accounting' class="checkbox">
         <span class="text-primary text-nano text-grey">Accounting</span>
@@ -56,7 +56,7 @@
 <!--  -->
 <div>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">B</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">B</p>
         <input type="checkbox" name='industries_list[]' value='banking' class="checkbox">
         <span class="text-primary text-nano text-grey">Banking</span>
     </label>
@@ -87,7 +87,7 @@
     <br><br>
 
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">C</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">C</p>
 
         <input type="checkbox" name='industries_list[]' value='capital_markets' class="checkbox">
         <span class="text-primary text-nano text-grey">Capital Markets</span>
@@ -174,7 +174,7 @@
 <!-- -->
 <div>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">D</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">D</p>
 
         <input type="checkbox" name='industries_list[]' value='dairy' class="checkbox">
         <span class="text-primary text-nano text-grey">Dairy</span>
@@ -191,7 +191,7 @@
     </label>
     <br><br>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">E</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">E</p>
 
         <input type="checkbox" name='industries_list[]' value='education_management' class="checkbox">
         <span class="text-primary text-nano text-grey">Education Management</span>
@@ -231,7 +231,7 @@
 <!-- -->
 <div>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">F</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">F</p>
 
         <input type="checkbox" name='industries_list[]' value='facilities_services' class="checkbox">
         <span class="text-primary text-nano text-grey">Facilities Services</span>
@@ -278,7 +278,7 @@
     </label>
     <br><br>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">G</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">G</p>
 
         <input type="checkbox" name='industries_list[]' value='gambling_and_casinos' class="checkbox">
         <span class="text-primary text-nano text-grey">Gambling & Casinos</span>

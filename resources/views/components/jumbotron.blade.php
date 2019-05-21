@@ -18,7 +18,7 @@
                 <a onclick='showPricingPage()' class='text-primary text-normal nav-item'>Pricing</a>
                 <a onclick='showCaseStudyPage()' class='text-primary text-normal nav-item'>Case Study</a>
                 <a href='{{route('signup.index')}}' class='text-primary text-normal nav-item'>Sign Up</a>
-                <a href='https://calendly.com/leadengine-support/15min' class='text-primary text-white' >Free Consultation</a>
+                <a href='https://calendly.com/leadengine-support/15min' class='text-primary nav-item' >Free Consultation</a>
 
             </div>
             <button class="hamburger btn btn-transparent"><i class="fas fa-bars"></i></button>
@@ -35,7 +35,7 @@
                 <p class="text-primary text-bigmed text-white">
                     The Most Powerful B2B Lead Gen on the market
                 </p>
-                <p class="text-dbl-line-height text-secondary text-mednorm text-white">
+                <p class="text-dbl-line-height text-primary text-mednorm text-white">
                     The success of your business depends on your leads and your ability to get them excited about your brand. Leads can come in from a variety of sources with unique requirements, and your primary focus should be on creating a good relationship with them. 
                 </p>
                 <br>

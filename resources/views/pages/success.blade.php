@@ -11,7 +11,7 @@
     <div class="success-container">
 
         <img style="width:150px" src="{{asset('images/success.png')}}" alt="">
-        <p class="text-secondary text-medium text-center">
+        <p class="text-primary text-medium text-center">
             <b>Thank You For Signing up!</b>
         </p>
         <p class="text-dbl-line-height text-primary text-normal text-center">

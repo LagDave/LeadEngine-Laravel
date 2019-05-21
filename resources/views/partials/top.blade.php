@@ -13,14 +13,8 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
               integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-        {{-- Roboto --}}
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
-        {{-- Acme --}}
-        {{-- <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet"> --}}
-
-        {{-- Open Sans Condensed --}}
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+        {{-- Primary: Montserrat --}}
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 
     {{-- Remote Script --}}
         {{-- JQuery --}}

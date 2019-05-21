@@ -20,7 +20,7 @@
     </label>
     <br><br>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">H</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">H</p>
 
         <input type="checkbox" name='industries_list[]' value='health_wellness_and_fitness' class="checkbox">
         <span class="text-primary text-grey text-nano">Health, Wellness and Fitness</span>
@@ -47,7 +47,7 @@
     </label>
     <br><br>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">I</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">I</p>
 
         <input type="checkbox" name='industries_list[]' value='import_and_export' class="checkbox">
         <span class="text-primary text-grey text-nano">Import and Export</span>
@@ -110,14 +110,14 @@
 
 <div>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">J</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">J</p>
 
         <input type="checkbox" name='industries_list[]' value='judiciary' class="checkbox">
         <span class="text-primary text-grey text-nano">Judiciary</span>
     </label>
     <br><br>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">L</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">L</p>
 
         <input type="checkbox" name='industries_list[]' value='law_enforcement' class="checkbox">
         <span class="text-primary text-grey text-nano">Law Enforcement</span>
@@ -159,7 +159,7 @@
     </label>
     <br><br>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">M</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">M</p>
 
         <input type="checkbox" name='industries_list[]' value='machinery' class="checkbox">
         <span class="text-primary text-grey text-nano">Machinery</span>
@@ -242,7 +242,7 @@
     </label>
     <br><br>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">N</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">N</p>
 
         <input type="checkbox" name='industries_list[]' value='nanotechnology' class="checkbox">
         <span class="text-primary text-grey text-nano">Nanotechology</span>
@@ -259,7 +259,7 @@
     </label>
     <br><br>
     <label >
-        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-secondary text-bold">O</p>
+        <p style="background:#3d8fc2; color:white; border-radius: 5px; margin-bottom: 10px" class="text-center text-mednorm text-primary text-bold">O</p>
 
         <input type="checkbox" name='industries_list[]' value='oil_and_energy' class="checkbox">
         <span class="text-primary text-grey text-nano">Oil & Energy</span>

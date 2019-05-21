@@ -38,10 +38,10 @@
                 <br>
                 <div class="stats-table">
 
-                    <p class="text-bold text-center text-secondary text-normal">Email Campaign with 99.9%
+                    <p class="text-bold text-center text-primary text-normal">Email Campaign with 99.9%
                         deliverability to
                         Prospect’s Inbox</p>
-                    <p class="text-bold text-center text-secondary text-normal">90 Day Follow up</p>
+                    <p class="text-bold text-center text-primary text-normal">90 Day Follow up</p>
                     <p class="text-center text-primary text-normal">500 Prospects Per Month</p>
                     <p class="text-center text-primary text-normal">2 Touch Message Campaign</p>
                     <p class="text-center text-primary text-normal">Enriched CSV file of new connections</p>

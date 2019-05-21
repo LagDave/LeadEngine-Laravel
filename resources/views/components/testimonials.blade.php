@@ -13,7 +13,7 @@
             <img src="{{asset('images/person1.jpg')}}" class='testimonial-profile' alt="">
             <p class="text-mednorm"><i class="text-blue fas fa-quote-right"></i></p>
 
-            <p class="text-grey text-normal text-center text-secondary text-dbl-line-height">
+            <p class="text-grey text-normal text-center text-primary text-dbl-line-height">
                 Recruiting agents has been a walk in the park. I used to have
                 virtual assistants doing the legwork for me and it’s expensive.
                 LeadEngine saved me thousands of dollars in so little time. Great job.
@@ -37,7 +37,7 @@
             <img src="{{asset('images/person2.jpg')}}" class='testimonial-profile' alt="">
             <p class="text-mednorm"><i class="text-blue fas fa-quote-right"></i></p>
 
-            <p class="text-grey text-normal text-center text-secondary text-dbl-line-height">
+            <p class="text-grey text-normal text-center text-primary text-dbl-line-height">
                 As much as i wanted to keep this strategy a secret, I can’t.
                 It’s a game changer
             </p>
