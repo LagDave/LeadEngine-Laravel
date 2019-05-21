@@ -18,15 +18,9 @@
                 <a onclick='showPricingPage()' class='text-primary text-normal nav-item'>Pricing</a>
                 <a onclick='showCaseStudyPage()' class='text-primary text-normal nav-item'>Case Study</a>
                 <a href='{{route('signup.index')}}' class='text-primary text-normal nav-item'>Sign Up</a>
+                <a href='https://calendly.com/leadengine-support/15min' class='text-primary text-white' >Free Consultation</a>
 
             </div>
-
-            <div class='contacts'>
-
-                <a href='https://calendly.com/leadengine-support/15min' class="btn btn-blue">Free Consultation</a>
-
-            </div>
-
             <button class="hamburger btn btn-transparent"><i class="fas fa-bars"></i></button>
 
         </nav>

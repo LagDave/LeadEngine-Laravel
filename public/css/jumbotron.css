@@ -51,7 +51,7 @@
 /* Jumbo Navigation Component */
 .jumbotron nav {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   padding: 20px 0;
 }
 .jumbotron nav .brand {
@@ -64,7 +64,7 @@
 }
 .jumbotron nav .nav-items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   align-items: center;
 }
 .jumbotron nav .nav-items .nav-item {
@@ -155,7 +155,8 @@
 /* JUMBOTRON */
 .jumbotron {
   min-height: 100vh;
-  background: linear-gradient(45deg, #2980b9, #2c3e50);
+  background: url('/images/jb_bg.jpg');
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
