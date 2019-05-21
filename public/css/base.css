@@ -86,19 +86,19 @@ button:focus {
   font-weight: lighter;
 }
 
-.text-barlow {
-  font-family: "Barlow Condensed";
+.text-primary {
+  font-family: "Amaranth";
 }
 .text-verdana {
   font-family: "Poppins";
 }
-.text-montserrat {
-  font-family: "Montserrat";
+.text-primary {
+  font-family: "Acme";
 }
 .text-wire-one {
-  font-family: "Wire One";
+  font-family: "Amaranth";
 }
-.text-roboto{
+.text-secondary{
   font-family: 'Roboto';
 }
 

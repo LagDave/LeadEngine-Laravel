@@ -13,10 +13,13 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
               integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         {{-- Barlow|Montserrat|Poppins|Wire One --}}
-        <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:700|Montserrat|Poppins|Wire+One"
+        <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:700|Poppins"
               rel="stylesheet">
         {{-- Roboto --}}
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+        {{-- Acme --}}
+        <link href="https://fonts.googleapis.com/css?family=Acme&display=swap" rel="stylesheet">
 
     {{-- Remote Script --}}
         {{-- JQuery --}}

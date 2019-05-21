@@ -12,17 +12,17 @@
         <div class="pricing2-container">
             <div></div>
             <div class='pricing'>
-                <p class="margin-0 text-montserrat text-center text-normal">BASIC</p>
-                <p class="margin-0 text-barlow text-center text-medium">$89.99/Month</p>
+                <p class="margin-0 text-primary text-center text-normal">BASIC</p>
+                <p class="margin-0 text-primary text-center text-medium">$89.99/Month</p>
                 <br>
                 <div class="stats-table">
 
-                    <p class="text-center text-montserrat text-normal">500 Prospects Per Month</p>
-                    <p class="text-center text-montserrat text-normal">2 Touch Message Campaign</p>
-                    <p class="text-center text-montserrat text-normal">Enriched CSV file of new connections</p>
-                    <p class="text-center text-montserrat text-normal">Dedicated Account Manager</p>
-                    <p class="text-center text-montserrat text-normal">Full Tech Support</p>
-                    <p class="text-center text-montserrat text-normal">Monthly Report</p>
+                    <p class="text-center text-primary text-normal">500 Prospects Per Month</p>
+                    <p class="text-center text-primary text-normal">2 Touch Message Campaign</p>
+                    <p class="text-center text-primary text-normal">Enriched CSV file of new connections</p>
+                    <p class="text-center text-primary text-normal">Dedicated Account Manager</p>
+                    <p class="text-center text-primary text-normal">Full Tech Support</p>
+                    <p class="text-center text-primary text-normal">Monthly Report</p>
 
 
                 </div>
@@ -33,21 +33,21 @@
             </div>
 
             <div class='pricing'>
-                <p class="margin-0 text-montserrat text-center text-normal">PRO</p>
-                <p class="margin-0 text-barlow text-center text-medium">149/Month</p>
+                <p class="margin-0 text-primary text-center text-normal">PRO</p>
+                <p class="margin-0 text-primary text-center text-medium">149/Month</p>
                 <br>
                 <div class="stats-table">
 
-                    <p class="text-bold text-center text-roboto text-normal">Email Campaign with 99.9%
+                    <p class="text-bold text-center text-secondary text-normal">Email Campaign with 99.9%
                         deliverability to
                         Prospect’s Inbox</p>
-                    <p class="text-bold text-center text-roboto text-normal">90 Day Follow up</p>
-                    <p class="text-center text-montserrat text-normal">500 Prospects Per Month</p>
-                    <p class="text-center text-montserrat text-normal">2 Touch Message Campaign</p>
-                    <p class="text-center text-montserrat text-normal">Enriched CSV file of new connections</p>
-                    <p class="text-center text-montserrat text-normal">Dedicated Account Manager</p>
-                    <p class="text-center text-montserrat text-normal">Full Tech Support</p>
-                    <p class="text-center text-montserrat text-normal">Monthly Report</p>
+                    <p class="text-bold text-center text-secondary text-normal">90 Day Follow up</p>
+                    <p class="text-center text-primary text-normal">500 Prospects Per Month</p>
+                    <p class="text-center text-primary text-normal">2 Touch Message Campaign</p>
+                    <p class="text-center text-primary text-normal">Enriched CSV file of new connections</p>
+                    <p class="text-center text-primary text-normal">Dedicated Account Manager</p>
+                    <p class="text-center text-primary text-normal">Full Tech Support</p>
+                    <p class="text-center text-primary text-normal">Monthly Report</p>
 
 
                 </div>
@@ -65,10 +65,10 @@
     <div class="how-to-get-started">
         <div class="container">
             <div class="text">
-                <p class="text-barlow text-big text-bold">
+                <p class="text-primary text-big text-bold">
                     How to get started
                 </p>
-                <p style='line-height: 40px' class="text-montserrat text-mednorm">
+                <p style='line-height: 40px' class="text-primary text-mednorm">
                     Choose one of our standard packages above or ask us to customize features especially for your
                     business. Your success and ROI is only limited by your ability to follow up with the leads
                     you'll
@@ -95,14 +95,14 @@
                 <img src="{{asset('images/person3.png')}}" class='testimonial-profile' alt="">
                 <p class="text-mednorm"><i class="text-blue fas fa-quote-right"></i></p>
 
-                <p class="testimonial-content text-grey text-normal text-center text-montserrat">
+                <p class="testimonial-content text-grey text-normal text-center text-primary">
                     For many years we have tried several ideas and systems in order to create an easy and cost
                     effective way to find high quality leads. With Lead Engine, we were able to work with the leads
                     that are actually interested in our services.
                 </p>
-                <p style='margin-bottom:5px' class="mt-auto text-barlow text-bold text-normal">Tom Corvo, <span
+                <p style='margin-bottom:5px' class="mt-auto text-primary text-bold text-normal">Tom Corvo, <span
                             class='text-orange'>CEO</span></p>
-                <p class="margin-0 text-nano text-montserrat">Magenic software company</p>
+                <p class="margin-0 text-nano text-primary">Magenic software company</p>
                 <div style='margin-top:5px' class="stars-container">
 
                     <i class="fas text-orange fa-star"></i>

@@ -12,12 +12,12 @@
             <div class='nav-items'>
 
 
-                <a class='text-montserrat text-normal nav-item' href="">Home</a>
+                <a class='text-primary text-normal nav-item' href="">Home</a>
                 <a target='_blank' href='https://calendly.com/leadengine-support/15min'
-                   class='text-montserrat text-normal nav-item'>Schedule Call</a>
-                <a onclick='showPricingPage()' class='text-montserrat text-normal nav-item'>Pricing</a>
-                <a onclick='showCaseStudyPage()' class='text-montserrat text-normal nav-item'>Case Study</a>
-                <a href='{{route('signup.index')}}' class='text-montserrat text-normal nav-item'>Sign Up</a>
+                   class='text-primary text-normal nav-item'>Schedule Call</a>
+                <a onclick='showPricingPage()' class='text-primary text-normal nav-item'>Pricing</a>
+                <a onclick='showCaseStudyPage()' class='text-primary text-normal nav-item'>Case Study</a>
+                <a href='{{route('signup.index')}}' class='text-primary text-normal nav-item'>Sign Up</a>
 
             </div>
 
@@ -30,17 +30,30 @@
             <button class="hamburger btn btn-transparent"><i class="fas fa-bars"></i></button>
 
         </nav>
+        
 
         {{-- Nav Items Mobile --}}
-    @include('components.nav_items_mobile')
+        @include('components.nav_items_mobile')
 
 
         <div class="jumbo-main-container">
-            <p style="opacity:.9" class="text-roboto text-center text-big text-bold">
-                Building Relationships, <br>
-                one conversation at a time.
-            </p>
-            <a href='#how-leadengine-works' class="btn btn-blue btn-big">How it works</a>
+            <div class="jumbo-text">
+                <p class="text-primary text-bigmed text-white">
+                    The Most Powerful B2B Lead Gen on the market
+                </p>
+                <p class="text-dbl-line-height text-secondary text-mednorm text-white">
+                    The success of your business depends on your leads and your ability to get them excited about your brand. Leads can come in from a variety of sources with unique requirements, and your primary focus should be on creating a good relationship with them. 
+                </p>
+                <br>
+                <p>
+                    <a href= 'https://calendly.com/leadengine-support/15min' class="btn btn-white">Free Consultation</a>
+                </p>
+            </div><!-- Jumbo Text -->
+
+            <div class="jumbo-image">
+                <img src="{{asset('images/jumbotron_person.png')}}" alt="">
+            </div><!-- Jumbo Image -->
+
         </div>
     </div>
 </div>

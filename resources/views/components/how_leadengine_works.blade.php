@@ -1,42 +1,50 @@
 <!-- How LeadEngine Works Component-->
 
 <div id='how-leadengine-works' class="how-leadengine-works">
-    <p class="text-bigmed text-bold text-montserrat text-center">How LeadEngine Works</p>
-    <br>
+    <p class="text-bigmed text-bold text-primary text-center">How LeadEngine Works</p>
     <div class="container main">
         <div class="step">
+            
             <div>
-                <img src="{{asset('images/01-strategy-session.png')}}" alt="">
-            </div>
-            <div>
-                <p style="margin-top:10px;" class="margin-0 text-montserrat text-bold text-mednorm">1. Strategy
+                <div class="step-image">
+                    <p class="text-white text-center">
+                        <i class="fas fa-eye"></i>
+                    </p>
+                </div>
+                <p style="margin-top:10px;" class="text-center margin-0 text-primary text-bold text-mednorm">1. Strategy
                     Session</p>
-                <p style='line-height: 25px' class="text-montserrat">Identify your target audience and
+                <p style='line-height: 25px' class="step-definition text-center text-primary">Identify your target audience and
                     opportunities.
                     LeadEngine locates ALL of your target audience in your target state/s.</p>
             </div>
         </div>
 
         <div class="step">
+            
             <div>
-                <img src="{{asset('images/02-set-up.png')}}" alt="">
-            </div>
-            <div>
-                <p style="margin-top:10px;" class="margin-0 text-montserrat text-bold text-mednorm">2. Set Up</p>
-                <p style='line-height: 25px' class="text-montserrat">Composed compelling messages, timing, and
+                <div class="step-image">
+                    <p class="text-white text-center">
+                        <i class="fas fa-cogs"></i>
+                    </p>
+                </div>
+                <p style="margin-top:10px;" class="text-center margin-0 text-primary text-bold text-mednorm">2. Set Up</p>
+                <p style='line-height: 25px' class="step-definition text-center text-primary">Composed compelling messages, timing, and
                     sequence.
                 </p>
             </div>
         </div>
 
         <div class="step">
+            
             <div>
-                <img src="{{asset('images/03-hit-go.png')}}" alt="">
-            </div>
-            <div>
-                <p style="margin-top:10px;" class="margin-0 text-montserrat text-bold text-mednorm">3. Give the GO
+                <div class="step-image">
+                    <p class="text-white text-center">
+                        <i class="fas fa-upload"></i>
+                    </p>
+                </div>
+                <p style="margin-top:10px;" class="text-center margin-0 text-primary text-bold text-mednorm">3. Give the GO
                     Signal</p>
-                <p style='line-height: 25px' class="text-montserrat">LeadEngine goes to work.</p>
+                <p style='line-height: 25px' class="step-definition text-center text-primary">LeadEngine goes to work.</p>
             </div>
         </div>
     </div>
@@ -46,12 +54,14 @@
             <div></div>
             <div class="step">
                 <div>
-                    <img src="{{asset('images/04-hot-leads-daily.png')}}" alt="">
-                </div>
-                <div>
-                    <p style="margin-top:10px;" class="margin-0 text-montserrat text-bold text-mednorm">4. Hot Leads
+                    <div class="step-image">
+                        <p class="text-white text-center">
+                            <i class="fab fa-hotjar"></i>
+                        </p>
+                    </div>
+                    <p style="margin-top:10px;" class="text-center margin-0 text-primary text-bold text-mednorm">4. Hot Leads
                         Daily</p>
-                    <p style='line-height: 25px' class="text-montserrat">Lead sheet updates continuously - Get to
+                    <p style='line-height: 25px' class="step-definition text-center text-primary">Lead sheet updates continuously - Get to
                         keep
                         the
                         Enriched CSV file that include details of your new 1st connections such as email address,
@@ -62,12 +72,14 @@
 
             <div class="step">
                 <div>
-                    <img src="{{asset('images/05-Manager.png')}}" alt="">
-                </div>
-                <div>
-                    <p style="margin-top:10px;" class="margin-0 text-montserrat text-bold text-mednorm">5. Dedicated
+                    <div class="step-image">
+                        <p class="text-white text-center">
+                            <i class="fas fa-user-check"></i>
+                        </p>
+                    </div>
+                    <p style="margin-top:10px;" class="text-center margin-0 text-primary text-bold text-mednorm">5. Dedicated
                         account manager </p>
-                    <p style='line-height: 25px' class="text-montserrat">Regular check in and support from a real
+                    <p style='line-height: 25px' class="step-definition text-center text-primary">Regular check in and support from a real
                         person.
                     </p>
                 </div>
