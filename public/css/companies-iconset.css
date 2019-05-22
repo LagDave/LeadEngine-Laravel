@@ -33,7 +33,7 @@
 }
 @media(max-width: 600px){
     .companies-iconset .container .iconset{
-          grid-template-columns:1fr 1fr ;
+        grid-gap: 10px;
 
       }
 }
