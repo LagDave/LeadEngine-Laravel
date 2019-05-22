@@ -4,6 +4,9 @@ html {
 .stop-scrolling {
   overflow: hidden;
 }
+hr{
+  border:.5px solid #888;
+}
 body {
   margin: 0;
 }
@@ -92,7 +95,9 @@ button:focus {
 .text-primary {
   font-family: "Montserrat";
 }
-
+.text-cursive{
+  font-family: "Pacifico";
+}
 /* TEXT */
 
 /* BUTTON */

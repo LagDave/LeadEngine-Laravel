@@ -15,6 +15,8 @@
 
         {{-- Primary: Montserrat --}}
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+        {{-- Cursive: Pacifico --}}
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
 
     {{-- Remote Script --}}
         {{-- JQuery --}}
