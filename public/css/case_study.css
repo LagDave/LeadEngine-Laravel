@@ -6,6 +6,7 @@
   transform: translateX(-7000px);
   overflow: auto;
   width: 100vw;
+  z-index: 15;
 }
 .case_study_component .header {
   background: #3d8fc2;
@@ -54,6 +55,13 @@
 }
 .case_study_component .container .bambee-case-study img{
   width: 80%;
+}
+
+@media(max-width:760px){
+  .case_study_component .container .bambee-case-study img{
+    width: 100%;
+  }
+  
 }
 
 @keyframes componentShow {

@@ -32,10 +32,10 @@
 
         <div class="jumbo-main-container">
             <div class="jumbo-text">
-                <p class=" text-bigmed text-primary text-white">
+                <p class="jb-header text-bigmed text-primary text-white">
                     The Most Powerful B2B Lead Gen on the Market
                 </p>
-                <p class="text-dbl-line-height text-primary  text-white">
+                <p class="jb-subheader text-dbl-line-height text-primary  text-white">
                     The success of your business depends on your leads and your ability to get them excited about your brand. Leads can come in from a variety of sources with unique requirements, and your primary focus should be on creating a good relationship with them. 
                 </p>
                 <br>

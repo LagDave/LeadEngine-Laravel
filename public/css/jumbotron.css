@@ -103,7 +103,7 @@
   position: fixed;
   top: 90px;
   right: 40px;
-  z-index: 999999999999999999999999999999999999999999999999999999;
+  z-index: 10;
   width: 200px;
   border-radius: 3px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
@@ -129,7 +129,11 @@
 }
 
 
-
+@media(min-width:1300px){
+  .nav-items-mobile{
+    display: none;
+  }
+}
 @media (max-width: 1300px) {
   .scroll-nav .brand img {
     width: 180px;
@@ -260,7 +264,18 @@
   }
 }
 @media(max-width: 760px){
-  .jumbotron .text-big{
-    font-size: 2em;
+  .jumbotron .jb-header{
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+  .jumbotron .jb-subheader{
+    line-height: 1.2em;
+  }
+  .jumbo-text{
+    height:80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 }
