@@ -52,6 +52,16 @@
   margin:0 auto;
   box-sizing: border-box;
 }
+.pricing_component .pricing .price-and-calculator-container{
+background:white;
+width:80%;
+max-width: 500px;
+margin:0 auto;
+padding:30px 0;
+box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+border-radius: 10px;
+}
+
 .pricing_component .pricing .pricing-select{
   display: flex;
   align-items: center;
@@ -69,8 +79,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
   border-radius: 5px;
+  width:80%;
 }
 .pricing_component .pricing .pricing-select select option{
   color:black;
@@ -80,11 +90,19 @@
 .pricing_component .pricing .pricing-select select:focus{
   outline: none;
 }
-
+.pricing_component sup, span.cent{
+  font-size: .5em;
+  font-weight: normal;
+}
 
 .pricing-attribute{
   margin:0;
   text-align:right
+}
+.pricing_component table tr{
+  border-bottom: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  border-collapse: collapse; 
 }
 table tr td{
   padding:10px;

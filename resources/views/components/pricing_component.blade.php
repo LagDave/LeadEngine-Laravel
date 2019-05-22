@@ -12,7 +12,7 @@
         <p class="text-bold text-medium text-primary text-center">
             Get Started with LeadEngine
         </p>
-        <p class="text-mednorm text-dbl-line-height text-primary text-center">
+        <p class="text-normal text-dbl-line-height text-primary text-center">
             LeadEngine is a fully done-for-you B2B Lead Generation. 
             When you consider all the value and return of investment from your 
             leads that LeadEngine generates, it is an INCREDIBLE 
@@ -20,18 +20,32 @@
         </p>
         <br>
         <div class="pricing">
-            
-            <p class="text-mednorm text-center"><span class="text-bold text-medium text-primary price">$79.99</span><span class="text-purple text-cursive comment"> Seriously!</span></p>
-            <div class="pricing-select">
-                <select class='price-select-input text-primary'>
-                    <option value='monthly' span class='text-primary'>Monthly</span></option>
-                    <option value='semiannually' span class='text-primary'>Semiannually (6 Months)</span></option>
-                    <option value='annually' span class='text-primary'>Annually (12 Months)</span></option>
-                </select>
+
+            <br>
+            <div class="price-and-calculator-container">
+                <p class="text-mednorm text-center">
+                    <span class="text-bold text-medium text-primary price">
+                        <sup style='font-size:.6em'>$ </sup>
+                        <span class="price-value"> 79</span>
+                        <span class="cent"> .99</span>
+                    </span>
+                </p>
+                <p class="text-mednorm text-bold text-purple text-center comment"></p>
+                <br>
+
+                <div class="pricing-select">
+                    <select class='price-select-input text-primary'>
+                        <option value='monthly' span class='text-primary'>Monthly</span></option>
+                        <option value='semiannually' span class='text-primary'>6 Months</span></option>
+                        <option value='annually' span class='text-primary'>12 Months</span></option>
+                    </select>
+                </div>
             </div>
+            
+            <br>
             <br>
 
-            <table border='1' bordercolor='#ccc' style='width:100%; border-collapse: collapse'>
+            <table>
                 <tr>
                     <td>
                         <p class="text-primary text-small text-bold">Daily Connection Request</p>
@@ -126,14 +140,16 @@
     <script>
         $('.price-select-input').change(function(){
             if(this.value == 'monthly'){
-                $('.price').html('$79.99')
-                $('.comment').html('Seriously!')
+                $('.price-value').html('79')
+                $('.cent').html('.99')
             }else if(this.value == 'semiannually'){
-                $('.price').html('$420')
-                $('.comment').html('(12% Discount!)')
+                $('.price-value').html('420')
+                $('.cent').html('.00')
+                $('.comment').html('12% Discount!')
             }else if(this.value == 'annually'){
-                $('.price').html('$756')
-                $('.comment').html('(20% Discount!)')
+                $('.price-value').html('756')
+                $('.cent').html('.00')
+                $('.comment').html('20% Discount!')
             }
         })
     </script>
