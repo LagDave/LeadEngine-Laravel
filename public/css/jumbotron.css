@@ -93,7 +93,7 @@
 
 /* Nav Items Mobile */
 .nav-items-mobile {
-  background: #3d8fc2;
+  background: linear-gradient(-45deg,purple, darkblue);
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 10px;
@@ -156,6 +156,8 @@
   background-position: center bottom;
   background-size: cover;
   color: white !important;
+  
+  position: relative;
 }
 
 /* Jumbo Main Container */
@@ -171,11 +173,11 @@
 .jumbotron .jumbo-main-container .jumbo-image{
   display:flex;
   flex-direction: column;
-  align-items: flex-end
+  align-items: flex-end;
 }
 
 .jumbotron .jumbo-main-container img{
-  width:480px;
+  width:420px;
   bottom:0;
   position: absolute;
 }
@@ -216,6 +218,12 @@
   }
 }
 
+@media(max-width:1100px){
+  .scroll-nav .hamburger {
+    display: block;
+  }
+}
+
 @media (max-width: 1300px) {
   .jumbo-right-hand p:nth-child(1),
   .jumbo-divider,
@@ -227,6 +235,9 @@
   .jumbotron .jumbo-main-container {
     grid-template-columns: 1fr;
   }
+  .jumbotron .hamburger {
+    display: block;
+  }
   .jumbo-left-hand p {
     text-align: center !important;
   }
@@ -236,9 +247,7 @@
   .jumbotron nav {
     grid-template-columns: 1fr 1fr;
   }
-  .hamburger {
-    display: block;
-  }
+
   .jumbo-left-hand p:nth-child(1) {
     font-size: 3em;
   }
