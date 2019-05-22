@@ -1,7 +1,7 @@
 <!-- How LeadEngine Works Component-->
 
 <div id='how-leadengine-works' class="how-leadengine-works">
-    <p class="text-primary text-bigmed text-bold  text-center">How LeadEngine Works</p>
+    <p class="text-primary text-bigmed text-grey text-bold  text-center">How LeadEngine Works</p>
     <div class="container main">
         <div class="step">
             

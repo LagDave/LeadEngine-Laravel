@@ -1,7 +1,7 @@
 <!-- Companies Iconset -->
 <div class="companies-iconset">
     <div class="container">
-        <p class="text-primary text-bigmed text-bold  text-center">Thousands of leads generated from these
+        <p class="text-primary text-medium text-grey text-bold  text-center">Thousands of leads generated from these
             companies.</p>
         <div class="iconset">
             <div id='icon1' class="icon">

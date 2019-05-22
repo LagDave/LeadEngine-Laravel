@@ -2,7 +2,7 @@
 <div class="benefits">
     <div class="container">
         <div class="benefits-text">
-            <p class="text-primary text-grey  text-bigmed text-bold">
+            <p class="benefit-heading text-primary text-grey  text-medium text-bold">
                 “It’s a Done-for-you-Solution”
                 Everything is completely done for you, just respond to hot leads.
             </p>

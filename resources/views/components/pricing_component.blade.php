@@ -93,7 +93,7 @@
             <div class="testimonial">
 
                 <img src="{{asset('images/person3.png')}}" class='testimonial-profile' alt="">
-                <p class="text-primary text-mednorm"><i class=" fas fa-quote-right"></i></p>
+                <p class="text-primary text-mednorm"><i class="text-purple fas fa-quote-right"></i></p>
 
                 <p class="text-primary testimonial-content text-grey text-normal text-center ">
                     For many years we have tried several ideas and systems in order to create an easy and cost
@@ -101,15 +101,15 @@
                     that are actually interested in our services.
                 </p>
                 <p style='margin-bottom:5px' class="mt-auto text-primary text-bold text-normal">Tom Corvo, <span
-                            class='text-orange'>CEO</span></p>
+                            class='text-purple'>CEO</span></p>
                 <p class="text-primary margin-0 text-nano ">Magenic software company</p>
                 <div style='margin-top:5px' class="stars-container">
 
-                    <i class="fas text-orange fa-star"></i>
-                    <i class="fas text-orange fa-star"></i>
-                    <i class="fas text-orange fa-star"></i>
-                    <i class="fas text-orange fa-star"></i>
-                    <i class="fas text-orange fa-star"></i>
+                    <i class="fas text-purple fa-star"></i>
+                    <i class="fas text-purple fa-star"></i>
+                    <i class="fas text-purple fa-star"></i>
+                    <i class="fas text-purple fa-star"></i>
+                    <i class="fas text-purple fa-star"></i>
 
                 </div>
             </div>

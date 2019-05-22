@@ -29,7 +29,7 @@
                 <div class="testimonial">
 
                     <img src="{{asset('images/person1.jpg')}}" class='testimonial-profile' alt="">
-                    <p class="text-mednorm"><i class=" fas fa-quote-right"></i></p>
+                    <p class="text-mednorm"><i class="text-purple fas fa-quote-right"></i></p>
 
                     <p class="text-primary text-grey text-normal text-center ">
                         Recruiting agents has been a walk in the park. I used to have
@@ -37,15 +37,15 @@
                         LeadEngine saved me thousands of dollars in so little time. Great job.
                     </p>
                     <p style='margin-bottom:5px' class="mt-auto text-primary text-bold text-normal">Harold Clarke, <span
-                                class='text-orange'>Realtor</span></p>
+                                class='text-purple'>Realtor</span></p>
                     <p class="text-primary margin-0 text-nano ">Luxury Big Island</p>
                     <div style='margin-top:5px' class="stars-container">
 
-                        <i class="fas text-orange fa-star"></i>
-                        <i class="fas text-orange fa-star"></i>
-                        <i class="fas text-orange fa-star"></i>
-                        <i class="fas text-orange fa-star"></i>
-                        <i class="fas text-orange fa-star"></i>
+                        <i class="fas text-purple fa-star"></i>
+                        <i class="fas text-purple fa-star"></i>
+                        <i class="fas text-purple fa-star"></i>
+                        <i class="fas text-purple fa-star"></i>
+                        <i class="fas text-purple fa-star"></i>
 
                     </div>
                 </div>
@@ -53,7 +53,7 @@
                 <div class="testimonial">
 
                     <img src="{{asset('images/person3.jpg')}}" class='testimonial-profile' alt="">
-                    <p class="text-primary text-mednorm"><i class=" fas fa-quote-right"></i></p>
+                    <p class="text-primary text-mednorm"><i class="text-purple fas fa-quote-right"></i></p>
 
                     <p class="text-primary text-grey text-normal text-center ">
                         Excellent service and results! I never thought that there would be a simple process like
@@ -62,15 +62,15 @@
                         lift a finger to do cold calling anymore and just get rejected.
                     </p>
                     <p style='margin-bottom:5px' class="mt-auto text-primary text-bold text-normal">Alena Griffey, <span
-                                class='text-orange'>Mortgage Loan Officer</span></p>
+                                class='text-purple'>Mortgage Loan Officer</span></p>
                         <p class="text-primary margin-0 text-nano ">Trusted Home Loans</p>
                         <div style='margin-top:5px' class="stars-container">
 
-                            <i class="text-orange fas fa-star"></i>
-                            <i class="text-orange fas fa-star"></i>
-                            <i class="text-orange fas fa-star"></i>
-                            <i class="text-orange fas fa-star"></i>
-                        <i class="text-orange fas fa-star"></i>
+                            <i class="text-purple fas fa-star"></i>
+                            <i class="text-purple fas fa-star"></i>
+                            <i class="text-purple fas fa-star"></i>
+                            <i class="text-purple fas fa-star"></i>
+                        <i class="text-purple fas fa-star"></i>
 
                     </div>
                 </div>

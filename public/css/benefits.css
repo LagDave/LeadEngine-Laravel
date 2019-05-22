@@ -12,9 +12,11 @@
     flex-direction: column;
     align-items: center;
 }
+.benefits .benefit-heading{
+    line-height: 2em;
+}
 .benefits .container div img{
     width: 100%;
-    border-radius: 100000px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
 }
 .benefits .container .benefits-cards{
