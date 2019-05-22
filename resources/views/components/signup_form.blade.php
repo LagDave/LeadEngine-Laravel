@@ -2,7 +2,7 @@
     <div class="form-container">
         <form onsubmit="showLoader()"  method='POST' action="{{route('signup.validateForm')}}" class="form">
             @csrf
-            <p class="text-medium text-primary">SIGN UP NOW</p>
+            <p class="text-medium ">SIGN UP NOW</p>
             <br>
             <div class="columns">
                 <div class="field column">
@@ -47,9 +47,9 @@
                 </div>
             </div>
             <hr>
-            <p class='text-mednorm text-primary text-bold text-center'>Onboarding Survey</p>
+            <p class='text-mednorm  text-bold text-center'>Onboarding Survey</p>
             <br>
-            <p class="text-small text-grey text-center text-primary">This helps us to identify your dream clients and<br> craft the best messaging to increase your response rate.</p>
+            <p class="text-small text-grey text-center ">This helps us to identify your dream clients and<br> craft the best messaging to increase your response rate.</p>
             <hr>
 
             <!-- Onboarding Survey -->
@@ -137,11 +137,11 @@
 
             <img src="{{asset('images/wide_logo.png')}}">
             <br><br>
-            <p style='margin:10px 0' class="text-primary text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> No Setup Fees</p>
-            <p style='margin:10px 0' class="text-primary text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> No Cancellation Fees</p>
-            <p style='margin:10px 0' class="text-primary text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> Cancel Any Time</p>
-            <p style='margin:10px 0' class="text-primary text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> Secure Paypal Checkout</p>
-            <p style='margin:10px 0' class="text-primary text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> 30-Day Money-Back Guarantee</p>
+            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> No Setup Fees</p>
+            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> No Cancellation Fees</p>
+            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> Cancel Any Time</p>
+            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> Secure Paypal Checkout</p>
+            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> 30-Day Money-Back Guarantee</p>
 
 
         </div>

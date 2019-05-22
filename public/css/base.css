@@ -67,7 +67,7 @@ button:focus {
 .text-white {
   color: white;
 }
-.text-blue {
+. {
   color: #3d8fc2;
 }
 .text-grey {
@@ -84,6 +84,9 @@ button:focus {
 }
 .text-light {
   font-weight: lighter;
+}
+.text-purple{
+  color:#6a1b9a;
 }
 
 .text-primary {

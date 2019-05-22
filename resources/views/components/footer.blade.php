@@ -15,10 +15,10 @@
             <p class="text-primary text-white"><i class="fas fa-clock"></i> Monday - Friday 8:00 AM - 6:00 PM</p>
         </div>
         <div>
-            <p class="text-dbl-line-height text-right text-primary text-white">The #1 Business Relationship
+            <p class="text-primary text-dbl-line-height text-right  text-white">The #1 Business Relationship
                 Builder Between You and Your Target Market.</p>
-            <p class="text-right">
-                    <span class="text-dbl-line-height text-nano text-primary text-white"><a
+            <p class="text-primary text-right">
+                    <span class="text-primary text-dbl-line-height text-nano  text-white"><a
                                 class="text-white">Privacy Policy </a>| &copy; 2019 LeadEngine All Rights Reserved</span>
             </p>
         </div>

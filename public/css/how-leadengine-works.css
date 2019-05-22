@@ -14,7 +14,7 @@
     box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10)
 }
 .how-leadengine-works .container .step .step-image{
-    background:linear-gradient(45deg, #2980b9,#2c3e50 );
+    background:linear-gradient(45deg, purple 50%, darkblue );
     border-radius: 10px 10px 0 0;
     font-size: 2em;
     padding:10px 0;

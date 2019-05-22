@@ -8,12 +8,16 @@
   width: 100vw;
 }
 .pricing_component .header {
-  background: #3d8fc2;
+  background: url('/images/jb_bg.jpg');
+  background-position: center;
+  background-size: cover;
   padding: 20px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 999;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+
 }
 .pricing_component .header .container {
   display: flex;

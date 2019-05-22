@@ -11,10 +11,10 @@
     <div class="success-container">
 
         <img style="width:150px" src="{{asset('images/success.png')}}" alt="">
-        <p class="text-primary text-medium text-center">
+        <p class=" text-medium text-center">
             <b>Thank You For Signing up!</b>
         </p>
-        <p class="text-dbl-line-height text-primary text-normal text-center">
+        <p class="text-dbl-line-height  text-normal text-center">
             Your respective client success manager will be in touch within the next couple of hours.<br>
             For more questions, email us at support@leadengine.live    </p>
         <br>

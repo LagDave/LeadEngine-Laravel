@@ -2,17 +2,17 @@
     <div></div>
 
     <div class='pricing'>
-        <p class="margin-0 text-primary text-center text-normal">BASIC</p>
-        <p class="margin-0 text-primary text-center text-medium">$89.99/Month</p>
+        <p class="margin-0  text-center text-normal">BASIC</p>
+        <p class="margin-0  text-center text-medium">$89.99/Month</p>
         <br>
         <div class="stats-table">
 
-            <p class="text-center text-primary text-normal">500 Prospects Per Month</p>
-            <p class="text-center text-primary text-normal">2 Touch Message Campaign</p>
-            <p class="text-center text-primary text-normal">Enriched CSV file of new connections</p>
-            <p class="text-center text-primary text-normal">Dedicated Account Manager</p>
-            <p class="text-center text-primary text-normal">Full Tech Support</p>
-            <p class="text-center text-primary text-normal">Monthly Report</p>
+            <p class="text-center  text-normal">500 Prospects Per Month</p>
+            <p class="text-center  text-normal">2 Touch Message Campaign</p>
+            <p class="text-center  text-normal">Enriched CSV file of new connections</p>
+            <p class="text-center  text-normal">Dedicated Account Manager</p>
+            <p class="text-center  text-normal">Full Tech Support</p>
+            <p class="text-center  text-normal">Monthly Report</p>
 
 
         </div>
@@ -23,21 +23,21 @@
     </div>
 
     <div class='pricing'>
-        <p class="margin-0 text-primary text-center text-normal">PRO</p>
-        <p class="margin-0 text-primary text-center text-medium">149/Month</p>
+        <p class="margin-0  text-center text-normal">PRO</p>
+        <p class="margin-0  text-center text-medium">149/Month</p>
         <br>
         <div class="stats-table">
 
-            <p class="text-bold text-center text-primary text-normal">Email Campaign with 99.9%
+            <p class="text-bold text-center  text-normal">Email Campaign with 99.9%
                 deliverability to
                 Prospect’s Inbox</p>
-            <p class="text-bold text-center text-primary text-normal">90 Day Follow up</p>
-            <p class="text-center text-primary text-normal">500 Prospects Per Month</p>
-            <p class="text-center text-primary text-normal">2 Touch Message Campaign</p>
-            <p class="text-center text-primary text-normal">Enriched CSV file of new connections</p>
-            <p class="text-center text-primary text-normal">Dedicated Account Manager</p>
-            <p class="text-center text-primary text-normal">Full Tech Support</p>
-            <p class="text-center text-primary text-normal">Monthly Report</p>
+            <p class="text-bold text-center  text-normal">90 Day Follow up</p>
+            <p class="text-center  text-normal">500 Prospects Per Month</p>
+            <p class="text-center  text-normal">2 Touch Message Campaign</p>
+            <p class="text-center  text-normal">Enriched CSV file of new connections</p>
+            <p class="text-center  text-normal">Dedicated Account Manager</p>
+            <p class="text-center  text-normal">Full Tech Support</p>
+            <p class="text-center  text-normal">Monthly Report</p>
 
 
         </div>

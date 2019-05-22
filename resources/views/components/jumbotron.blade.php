@@ -12,13 +12,13 @@
             <div class='nav-items'>
 
 
-                <a class='text-primary text-small nav-item' href="">Home</a>
+                <a class='text-primary  text-small nav-item' href="">Home</a>
                 <a target='_blank' href='https://calendly.com/leadengine-support/15min'
-                   class='text-primary text-small nav-item'>Schedule Call</a>
-                <a onclick='showPricingPage()' class='text-primary text-small nav-item'>Pricing</a>
-                <a onclick='showCaseStudyPage()' class='text-primary text-small nav-item'>Case Study</a>
-                <a href='{{route('signup.index')}}' class='text-primary text-small nav-item'>Sign Up</a>
-                <a href='https://calendly.com/leadengine-support/15min' class='text-small text-primary nav-item' >Free Consultation</a>
+                   class='text-primary  text-small nav-item'>Schedule Call</a>
+                <a onclick='showPricingPage()' class='text-primary  text-small nav-item'>Pricing</a>
+                <a onclick='showCaseStudyPage()' class='text-primary  text-small nav-item'>Case Study</a>
+                <a href='{{route('signup.index')}}' class='text-primary  text-small nav-item'>Sign Up</a>
+                <a href='https://calendly.com/leadengine-support/15min' class='text-primary text-small  nav-item' >Free Consultation</a>
 
             </div>
             <button class="hamburger btn btn-transparent"><i class="fas fa-bars"></i></button>
@@ -32,10 +32,10 @@
 
         <div class="jumbo-main-container">
             <div class="jumbo-text">
-                <p class="text-primary text-bigmed text-white">
+                <p class=" text-bigmed text-primary text-white">
                     The Most Powerful B2B Lead Gen on the Market
                 </p>
-                <p class="text-dbl-line-height text-primary text-white">
+                <p class="text-dbl-line-height text-primary  text-white">
                     The success of your business depends on your leads and your ability to get them excited about your brand. Leads can come in from a variety of sources with unique requirements, and your primary focus should be on creating a good relationship with them. 
                 </p>
                 <br>
