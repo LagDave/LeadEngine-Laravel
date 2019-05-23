@@ -1,4 +1,4 @@
-var paypal_price = 0.3; // 79.99
+var paypal_price = 79.99; // 79.99
 
 
 $('.price-select-input').change(function () {
@@ -6,16 +6,16 @@ $('.price-select-input').change(function () {
         $('.price-value').html('79')
         $('.cent').html('.99');
         $('.comment').html('')
-        paypal_price = 0.3; // 79.99
+        paypal_price = 79.99; // 79.99
     } else if (this.value == 'semiannually') {
         $('.price-value').html('420')
         $('.cent').html('.00')
         $('.comment').html('Save 12%')
-        paypal_price = 0.6; // 420
+        paypal_price = 420; // 420
     } else if (this.value == 'annually') {
         $('.price-value').html('756')
         $('.cent').html('.00')
         $('.comment').html('Save 20%!')
-        paypal_price = 0.9; // 756
+        paypal_price = 756; // 756
     }
 })
