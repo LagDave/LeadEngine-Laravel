@@ -33,8 +33,8 @@
         <div class="jumbo-main-container">
             <div class="jumbo-text">
                 <p class="jb-header text-medium text-primary text-white">
-                    Automate your business with Linkedin 
-                    LinkedIn Sales Navigator & Linkedin Recruiter
+                    Automate your business with Linkedin -
+                    LinkedIn Sales Navigator & Linkedin Recruiter ( Full & Lite )
                 </p>
                 <p class="jb-subheader text-dbl-line-height text-primary  text-white">
                     Send thousands of personalized messages to your dream clients or target audience - get positive responses straight to your inbox
