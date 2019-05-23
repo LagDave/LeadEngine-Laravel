@@ -3,7 +3,7 @@
   background: #fafafa;
   position: fixed;
   top: 0;
-  transform: translateX(0px);
+  transform: translateX(-7000px);
   overflow: auto;
   width: 100vw;
   z-index: 15;
