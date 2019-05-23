@@ -12,13 +12,13 @@
 
         <img style="width:150px" src="{{asset('images/success.png')}}" alt="">
         <p class="text-primary text-medium text-center">
-            <b>Thank You For Signing up!</b>
+            <b>Thank you for signing up!</b>
         </p>
         <p class="text-dbl-line-height text-primary text-normal text-center">
             Your respective client success manager will be in touch within the next couple of hours.<br>
             For more questions, email us at support@leadengine.live    </p>
         <br>
-        <a href='https://calendly.com/leadengine-support/15min' class="btn btn-blue">Schedule a Discussion</a>
+        <a href='https://calendly.com/leadengine-support/15min' class="btn btn-blue">Schedule On-Boarding Session</a>
 
     </div>
 </div>
