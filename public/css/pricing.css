@@ -53,13 +53,15 @@
   box-sizing: border-box;
 }
 .pricing_component .pricing .price-and-calculator-container{
-background:white;
-width:80%;
-max-width: 500px;
-margin:0 auto;
-padding:30px 0;
-box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
-border-radius: 10px;
+  transition: .2s;
+  border-top: 5px solid purple;
+  background:white;
+  width:80%;
+  max-width: 500px;
+  margin:0 auto;
+  padding:30px 0;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+  border-radius: 10px;
 }
 
 .pricing_component .pricing .pricing-select{

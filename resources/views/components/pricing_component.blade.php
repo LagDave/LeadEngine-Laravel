@@ -24,13 +24,12 @@
             <br>
             <div class="price-and-calculator-container">
                 <p class="text-mednorm text-center">
-                    <span class="text-bold text-medium text-primary price">
+                    <span class="text-grey text-bold text-medium text-primary price">
                         <sup style='font-size:.6em'>$ </sup>
-                        <span class="price-value"> 79</span>
-                        <span class="cent"> .99</span>
+                        <span class="price-value"> 79</span><span class="cent">.99</span>
                     </span>
                 </p>
-                <p class="text-mednorm text-bold text-purple text-center comment"></p>
+                <p class="text-mednorm text-primary text-bold text-purple text-center comment"></p>
                 <br>
 
                 <div class="pricing-select">
@@ -142,38 +141,18 @@
             if(this.value == 'monthly'){
                 $('.price-value').html('79')
                 $('.cent').html('.99')
+                $('.comment').html('')
             }else if(this.value == 'semiannually'){
                 $('.price-value').html('420')
                 $('.cent').html('.00')
-                $('.comment').html('12% Discount!')
+                $('.comment').html('Save 12%')
             }else if(this.value == 'annually'){
                 $('.price-value').html('756')
                 $('.cent').html('.00')
-                $('.comment').html('20% Discount!')
+                $('.comment').html('Save 20%!')
             }
         })
     </script>
-
-    <br><br><br>
-
-    <div class="how-to-get-started">
-        <div class="container">
-            <div class="text">
-                <p class="text-primary text-big text-bold">
-                    How to get started
-                </p>
-                <p style='line-height: 40px' class="text-primary text-mednorm">
-                    Choose one of our standard packages above or ask us to customize features especially for your
-                    business. Your success and ROI is only limited by your ability to follow up with the leads
-                    you'll
-                    get!
-                </p>
-            </div>
-            <div class="image">
-                <img src="{{asset('images/pricing-image.PNG')}}">
-            </div>
-        </div>
-    </div>
 
     <br><br><br>
 
