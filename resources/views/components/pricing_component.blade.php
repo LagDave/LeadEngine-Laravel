@@ -8,6 +8,7 @@
     </div>
 
     <br>
+    
     <div class="container">
         <p class="text-bold text-medium text-primary text-center">
             Get Started with LeadEngine
@@ -20,16 +21,27 @@
         </p>
         <br>
         <div class="pricing">
-
-            <br>
+                <p class="text-purple text-bold text-mednorm text-center text-primary">PRICING</p>
             <div class="price-and-calculator-container">
-                <p class="text-mednorm text-center">
-                    <span class="text-grey text-bold text-medium text-primary price">
-                        <sup style='font-size:.6em'>$ </sup>
-                        <span class="price-value"> 79</span><span class="cent">.99</span>
-                    </span>
-                </p>
-                <p class="text-mednorm text-primary text-bold text-purple text-center comment"></p>
+                
+                <div class="price-text-container">
+                    <div class="pricing-text">
+                        <p class="text-mednorm text-center">
+                            <span class="text-grey text-bold text-medium text-primary price">
+                                <sup style='font-size:.6em'>$ </sup>
+                                <span class="price-value"> 79</span><span class="cent">.99</span>
+                            </span>
+                        </p>
+                        <p class="text-mednorm text-primary text-bold text-purple text-center comment"></p>
+                    </div>
+                    <div class="pricing-perks">
+                        <p class="text-small text-primary"><i class="text-mednorm fas fa-check-square text-green"></i> 30-Day Money-Back Guarantee</p>
+                        <p class="text-small text-primary"><i class="text-mednorm fas fa-check-square text-green"></i> Cancel anytime</p>
+                        <p class="text-small text-primary"><i class="text-mednorm fas fa-check-square text-green"></i> No Set up fees</p>
+
+                    
+                    </div>
+                </div>
                 <br>
 
                 <div class="pricing-select">
