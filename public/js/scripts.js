@@ -14,8 +14,8 @@ $(".hamburger").click(() => {
 });
 
 // Scroll Navigation Scripts
-$(document).ready(function() {
-  $(document).scroll(function() {
+$(document).ready(function () {
+  $(document).scroll(function () {
     var y = $(this).scrollTop();
     if (y > 500) {
       showScrollNav();
@@ -44,3 +44,9 @@ function hideScrollNav() {
     padding: "0px"
   });
 }
+
+
+
+$(document).ready(function () {
+  $('.ui.accordion').accordion();
+});
