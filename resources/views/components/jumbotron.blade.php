@@ -36,7 +36,7 @@
                     Automate your business with Linkedin -
                     LinkedIn Sales Navigator & Linkedin Recruiter ( Full & Lite )
                 </p>
-                <p class="jb-subheader text-dbl-line-height text-primary  text-white">
+                <p style='color:yellow' class="jb-subheader text-dbl-line-height text-primary">
                     Send thousands of personalized messages to your dream clients or target audience - get positive responses straight to your inbox
                     <br><br>
                     Identifies your target audience and sends 3,000 connection request per month
