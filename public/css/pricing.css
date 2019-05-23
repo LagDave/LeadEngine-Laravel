@@ -83,6 +83,7 @@
   justify-content: center;
   border-radius: 5px;
   width:80%;
+  max-width:200px;
 }
 .pricing_component .pricing .pricing-select select option{
   color:black;
