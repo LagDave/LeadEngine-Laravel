@@ -40,7 +40,7 @@
                 </p>
                 <br>
                 <p>
-                    <a href= 'https://calendly.com/leadengine-support/15min' class="btn btn-white">Free Consultation</a>
+                    <button class="btn btn-white" onclick='showPricingPage()'>See Pricing</button>
                 </p>
             </div><!-- Jumbo Text -->
 
