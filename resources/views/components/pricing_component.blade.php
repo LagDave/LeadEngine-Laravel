@@ -148,24 +148,6 @@
 
     </div>
 
-    <script>
-        $('.price-select-input').change(function(){
-            if(this.value == 'monthly'){
-                $('.price-value').html('79')
-                $('.cent').html('.99')
-                $('.comment').html('')
-            }else if(this.value == 'semiannually'){
-                $('.price-value').html('420')
-                $('.cent').html('.00')
-                $('.comment').html('Save 12%')
-            }else if(this.value == 'annually'){
-                $('.price-value').html('756')
-                $('.cent').html('.00')
-                $('.comment').html('Save 20%!')
-            }
-        })
-    </script>
-
     <br><br><br>
 
     <!-- Testimonials    -->
@@ -206,4 +188,5 @@
     <br>
 
     @include('components.footer')
+    <script src='{{asset('js/pricing_calculator.js')}}'></script>
 </div>

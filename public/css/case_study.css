@@ -6,7 +6,7 @@
   transform: translateX(-7000px);
   overflow: auto;
   width: 100vw;
-  z-index: 15;
+  z-index: 9999999999;
 }
 .case_study_component .header {
   background: #3d8fc2;

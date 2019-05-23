@@ -6,7 +6,7 @@
   transform: translateX(-7000px);
   overflow: auto;
   width: 100vw;
-  z-index: 18;
+  z-index: 9999999999;
 }
 .pricing_component .header {
   background: url('/images/jb_bg.jpg');
@@ -42,7 +42,7 @@
   transition: 0.1s;
 }
 
-.pricing_component .pricing{
+ .pricing{
   background:white;
   padding:20px;
   box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
@@ -52,7 +52,7 @@
   margin:0 auto;
   box-sizing: border-box;
 }
-.pricing_component .pricing .price-and-calculator-container{
+ .pricing .price-and-calculator-container{
   transition: .2s;
   border-top: 5px solid purple;
   background:white;
@@ -65,12 +65,12 @@
   border-radius: 10px;
 }
 
-.pricing_component .pricing .pricing-select{
+ .pricing .pricing-select{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.pricing_component .pricing .pricing-select select{
+ .pricing .pricing-select select{
   font-size: 1em;
   background:orange;
   border:none;
@@ -86,15 +86,15 @@
   width:80%;
   max-width:200px;
 }
-.pricing_component .pricing .pricing-select select option{
+ .pricing .pricing-select select option{
   color:black;
   padding: 10px 0;
 }
 
-.pricing_component .pricing .pricing-select select:focus{
+ .pricing .pricing-select select:focus{
   outline: none;
 }
-.pricing_component sup, span.cent{
+ sup, span.cent{
   font-size: .5em;
   font-weight: normal;
 }
@@ -103,25 +103,22 @@
   margin:0;
   text-align:right
 }
-.pricing_component table tr{
-  border-bottom: 1px solid #ccc;
-  border-top: 1px solid #ccc;
-  border-collapse: collapse; 
-}
+
 table tr td{
   padding:10px;
-  box-sizing: border-box
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+
 }
 
-
-.pricing_component .header button:hover {
+.header button:hover {
   transform: scale(1.1, 1.1);
 }
-.pricing_component .price-text-container{
+.price-text-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.pricing_component .price-text-container .pricing-perks{
+.price-text-container .pricing-perks{
   border-left: .5px solid #ccc;
   padding-left: 20px;
 } 

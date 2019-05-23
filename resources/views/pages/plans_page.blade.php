@@ -28,4 +28,5 @@
 <script src="{{asset('js/static_navbar.js')}}"></script>
 <script src="https://www.paypalobjects.com/api/checkout.js"></script>
 <script src="{{asset('js/loader_summoner.js')}}"></script>
+<script src='{{asset('js/pricing_calculator.js')}}'></script>
 <script src='{{asset('js/paypal_buttons.js')}}'></script>

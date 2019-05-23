@@ -7,6 +7,9 @@ use Illuminate\Support\Facades\Mail;
 
 class SignupController extends Controller
 {
+    public function __construct(){
+        $this->middleware('registered')->except(['index', 'validateForm']);
+    }
     public function index(){
         return view('pages/signup_form_page');
     }
@@ -26,16 +29,21 @@ class SignupController extends Controller
             'zipcode'=>'required'
         ]);
 
-//        Convert Industries to string
         $industries = '';
-        if(sizeof($request->all()['industries_list']) > 0){
-            foreach($request->all()['industries_list'] as $industry){
-                $industry = ucwords(str_replace('_', ' ', $industry));
-                $industries .= $industry.', ';
+//        Convert Industries to string
+        if(isset($request->all()['industries_list'])){
+            if(sizeof($request->all()['industries_list']) > 0){
+                foreach($request->all()['industries_list'] as $industry){
+                    $industry = ucwords(str_replace('_', ' ', $industry));
+                    $industries .= $industry.', ';
+                }
             }
         }
+        
+
 //        Save to session
         session([
+            'is_registered'=> '',
             'first_name' => $request->all()['first_name'],
             'last_name'=>$request->all()['last_name'],
             'email'=>$request->all()['email'],
@@ -63,7 +71,7 @@ class SignupController extends Controller
 
     public function sendMail(){
         $to_name = 'Daniel Bautista';
-        $to_email = 'LE.kevin.sutton@gmail.com';
+        $to_email = 'rdavephp@gmail.com'; // LE.kevin.sutton@gmail.com
         $data = array();
 
         Mail::send('emails.mail', $data, function($message) use ($to_name, $to_email) {
