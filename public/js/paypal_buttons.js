@@ -35,7 +35,7 @@ paypal.Button.render({
     onAuthorize: function (data, actions) {
         return actions.payment.execute().then(function () {
             showLoader();
-            window.location.href = "http://web.leadengine.live/signup/sendmail";
+            window.location.href = "http://web.leadengine.live/signup/sendMail";
         });
     }
 }, '#paypal-button');
