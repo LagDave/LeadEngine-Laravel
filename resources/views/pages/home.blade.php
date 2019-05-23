@@ -8,6 +8,8 @@
 @include('components.why_leadengine')
 {{-- How LeadEngine Works --}}
 @include('components.how_leadengine_works')
+{{-- Free Consultation --}}
+@include('components.free_consultation')
 {{-- Benefits --}}
 @include('components.benefits')
 {{-- Testimonials --}}

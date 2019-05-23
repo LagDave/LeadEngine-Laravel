@@ -32,13 +32,20 @@
 
         <div class="jumbo-main-container">
             <div class="jumbo-text">
-                <p class="jb-header text-bigmed text-primary text-white">
-                    The Most Powerful B2B Lead Gen on the Market
+                <p class="jb-header text-medium text-primary text-white">
+                    Automate your business with Linkedin 
+                    LinkedIn Sales Navigator & Linkedin Recruiter
                 </p>
                 <p class="jb-subheader text-dbl-line-height text-primary  text-white">
-                    The success of your business depends on your leads and your ability to get them excited about your brand. Leads can come in from a variety of sources with unique requirements, and your primary focus should be on creating a good relationship with them. 
+                    Send thousands of personalized messages to your dream clients or target audience - get positive responses straight to your inbox
+                    <br><br>
+                    Identifies your target audience and sends 3,000 connection request per month
                 </p>
+
+
                 <br>
+
+
                 <p>
                     <button class="btn btn-white" onclick='showPricingPage()'>See Pricing</button>
                 </p>

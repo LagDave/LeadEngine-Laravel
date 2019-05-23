@@ -28,7 +28,6 @@
 
                 <div class="testimonial">
 
-                    <img src="{{asset('images/person1.jpg')}}" class='testimonial-profile' alt="">
                     <p class="text-mednorm"><i class="text-purple fas fa-quote-right"></i></p>
 
                     <p class="text-primary text-grey text-normal text-center ">
@@ -51,8 +50,6 @@
                 </div>
 
                 <div class="testimonial">
-
-                    <img src="{{asset('images/person3.jpg')}}" class='testimonial-profile' alt="">
                     <p class="text-primary text-mednorm"><i class="text-purple fas fa-quote-right"></i></p>
 
                     <p class="text-primary text-grey text-normal text-center ">
@@ -78,6 +75,7 @@
 
         </div>
     </div>
+    <br>
     <br>
 
    @include('components.footer')

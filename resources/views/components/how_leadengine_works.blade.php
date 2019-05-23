@@ -1,92 +1,44 @@
-<!-- How LeadEngine Works Component-->
-
-<div id='how-leadengine-works' class="how-leadengine-works">
-    <p class="text-primary text-bigmed text-grey text-bold  text-center">How LeadEngine Works</p>
-    <div class="container main">
-        <div class="step">
-            
-            <div>
-                <div class="step-image">
-                    <p class="text-primary text-white text-center">
-                        <i class="fas fa-eye"></i>
-                    </p>
-                </div>
-                <p style="margin-top:10px;" class="text-primary text-center margin-0  text-bold text-mednorm">1. Strategy
-                    Session</p>
-                <p style='line-height: 25px' class="text-primary step-definition text-center ">Identify your target audience and
-                    opportunities.
-                    LeadEngine locates ALL of your target audience in your target state/s.</p>
-            </div>
-        </div>
-
-        <div class="step">
-            
-            <div>
-                <div class="step-image">
-                    <p class="text-primary text-white text-center">
-                        <i class="fas fa-cogs"></i>
-                    </p>
-                </div>
-                <p style="margin-top:10px;" class="text-primary text-center margin-0  text-bold text-mednorm">2. Set Up</p>
-                <p style='line-height: 25px' class="text-primary step-definition text-center ">Composed compelling messages, timing, and
-                    sequence.
-                </p>
-            </div>
-        </div>
-
-        <div class="step">
-            
-            <div>
-                <div class="step-image">
-                    <p class="text-primary text-white text-center">
-                        <i class="fas fa-upload"></i>
-                    </p>
-                </div>
-                <p style="margin-top:10px;" class="text-primary text-center margin-0  text-bold text-mednorm">3. Give the GO
-                    Signal</p>
-                <p style='line-height: 25px' class="text-primary step-definition text-center ">LeadEngine goes to work.</p>
-            </div>
-        </div>
-    </div>
-    <br>
+<br>
+<div class="how-leadengine-works">
     <div class="container">
-        <div class="bottom-steps">
-            <div></div>
+
+        <p class="text-primary text-bold text-medium text-center">Let us 200X your LinkedIn Reach</p>
+        <p class="text-primary text-center">Our LinkedIn outreach strategy targets & engages your most qualified decision makers, driving them directly into your sales funnel.</p>
+
+        <br><br>
+        <div class="steps">
             <div class="step">
-                <div>
-                    <div class="step-image">
-                        <p class="text-primary text-white text-center">
-                            <i class="fab fa-hotjar"></i>
-                        </p>
-                    </div>
-                    <p style="margin-top:10px;" class="text-primary text-center margin-0  text-bold text-mednorm">4. Hot Leads
-                        Daily</p>
-                    <p style='line-height: 25px' class="text-primary step-definition text-center ">Lead sheet updates continuously - Get to
-                        keep
-                        the
-                        Enriched CSV file that include details of your new 1st connections such as email address,
-                        title,
-                        company, phone number, and a lot more.</p>
-                </div>
+                <p class="text-medium text-center">
+                    <i class="step-icon fas fa-search"></i>
+                </p>
+                <p class="text-dbl-line-height text-medium text-center text-normal text-primary"><span class="text-normal text-bold">1.</span> Build targeted and qualified lists of your ideal prospects active on LinkedIn.</p>
             </div>
 
             <div class="step">
-                <div>
-                    <div class="step-image">
-                        <p class="text-primary text-white text-center">
-                            <i class="fas fa-user-check"></i>
-                        </p>
-                    </div>
-                    <p style="margin-top:10px;" class="text-primary text-center margin-0  text-bold text-mednorm">5. Dedicated
-                        account manager </p>
-                    <p style='line-height: 25px' class="text-primary step-definition text-center ">Regular check in and support from a real
-                        person.
-                    </p>
-                </div>
+                <p class="text-medium text-center">
+                    <i class="step-icon fas fa-thumbs-up"></i>
+                </p>
+                <p class="text-dbl-line-height text-medium text-normal text-center text-primary"><span class="text-normal text-bold">2.</span> Write clear and personal cold outreach messages that actually get responded to.</p>
             </div>
-            <div></div>
+
+            <div class="step">
+                <p class="text-medium text-center">
+                    <i class="step-icon fas fa-key"></i>
+                </p>
+                <p class="text-dbl-line-height text-medium text-normal text-center text-primary"><span class="text-normal text-bold">3.</span> Send thousands of custom messages to your ideal prospects every single month.</p>
+            </div>
+
+            <div class="step">
+                <p class="text-medium text-center">
+                    <i class="step-icon fas fa-dollar-sign"></i>
+                </p>
+                <p class="text-dbl-line-height text-medium text-normal text-center text-primary"><span class="text-normal text-bold">4.</span> You're instantly notified when leads respond, for you to close the deal.</p>
+            </div>
 
         </div>
-    </div>
 
+    </div>
 </div>
+<br>
+<br>
+<br>

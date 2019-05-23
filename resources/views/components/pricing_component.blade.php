@@ -158,8 +158,6 @@
 
 
             <div class="testimonial">
-
-                <img src="{{asset('images/person3.png')}}" class='testimonial-profile' alt="">
                 <p class="text-primary text-mednorm"><i class="text-purple fas fa-quote-right"></i></p>
 
                 <p class="text-primary testimonial-content text-grey text-normal text-center ">
@@ -184,7 +182,7 @@
         </div>
 
     </div>
-
+    <br>
     <br>
 
     @include('components.footer')

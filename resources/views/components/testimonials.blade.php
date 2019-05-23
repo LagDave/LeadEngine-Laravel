@@ -9,8 +9,6 @@
 
 
         <div class="testimonial">
-
-            <img src="{{asset('images/person1.jpg')}}" class='testimonial-profile' alt="">
             <p class="text-mednorm text-primary"><i class="text-purple fas fa-quote-right"></i></p>
 
             <p class="text-grey text-primary text-normal text-primary text-center text-primary  text-dbl text-primary-line-height">
@@ -33,8 +31,6 @@
         </div>
 
         <div class="testimonial">
-
-            <img src="{{asset('images/person2.jpg')}}" class='testimonial-profile' alt="">
             <p class="text-mednorm text-primary"><i class="text-purple fas fa-quote-right"></i></p>
 
             <p class="text-grey text-primary text-normal text-primary text-center text-primary  text-dbl text-primary-line-height">
