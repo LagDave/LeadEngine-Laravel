@@ -6,7 +6,7 @@
   transform: translateX(-7000px);
   overflow: auto;
   width: 100vw;
-  z-index: 15;
+  z-index: 18;
 }
 .pricing_component .header {
   background: url('/images/jb_bg.jpg');
