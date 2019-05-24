@@ -296,6 +296,11 @@
     </div>
     {{-- Accordion End --}}
 
+
+    {{-- Components --}}
+    @include('components.pricing_component')
+    @include('components.case_study_component')
+
     <br><br>
     @include('components.footer')
 
