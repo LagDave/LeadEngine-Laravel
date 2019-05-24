@@ -19,7 +19,7 @@
 }
 .scroll-nav .container {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
 .scroll-nav .container .nav-items {
@@ -51,7 +51,7 @@
 /* Jumbo Navigation Component */
 .jumbotron nav {
   display: grid;
-  grid-template-columns: 1fr 1.8fr;
+  grid-template-columns: 1fr 1fr;
   padding: 20px 0;
 }
 .jumbotron nav .brand {
