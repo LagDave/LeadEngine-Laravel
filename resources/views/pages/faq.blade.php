@@ -3,6 +3,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/accordion.min.css">
 
     @include('components/scroll_nav')
+    @include('components/nav_items_mobile')
     
     <br><br><br><br><br>
     <p class="text-center text-medium text-primary text-bold">LeadEngine FAQ's</p>
