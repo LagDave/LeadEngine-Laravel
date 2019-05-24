@@ -18,7 +18,7 @@
                 <a onclick='showPricingPage()' class='text-primary text-small nav-item'>Pricing</a>
                 <a onclick='showCaseStudyPage()' class='text-primary text-small nav-item'>Case Study</a>
                 <a href='{{route('signup.index')}}' class='text-primary text-small nav-item'>Sign Up</a>
-                <a href='https://calendly.com/leadengine-support/15min' class='text-primary text-small   nav-item' >Free Consultation</a>
+                <a href='http://web.leadengine.live/faq' class='text-primary text-small   nav-item' >FAQ</a>
 
             </div>
             <button class="hamburger btn btn-transparent"><i class="fas fa-bars"></i></button>
@@ -36,10 +36,8 @@
                     Automate your business with Linkedin -
                     LinkedIn Sales Navigator & Linkedin Recruiter ( Full & Lite )
                 </p>
-                <p style='color:yellow' class="jb-subheader  text-primary">
-                    Send thousands of personalized messages to your dream clients or target audience - get positive responses straight to your inbox
-                    <br><br>
-                    Identifies your target audience and sends 3,000 connection request per month
+                <p class="jb-subheader  text-primary">
+                    LeadEngine finds your qualified prospects, composed tested outreach messages, and send thousands of personalized messages to your ideal prospects every month - get positive responses straight to your inbox
                 </p>
 
 

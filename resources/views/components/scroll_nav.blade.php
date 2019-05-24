@@ -23,7 +23,7 @@
 
         <div class='contacts'>
 
-            <a href='https://calendly.com/leadengine-support/15min' class="btn btn-blue">Free Consultation</a>
+            <a href='http://web.leadengine.live/faq' class="btn btn-blue">Frequently Asked Questions</a>
 
         </div>
 

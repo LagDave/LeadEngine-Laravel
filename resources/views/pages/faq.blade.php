@@ -147,7 +147,7 @@
 
                         Unfortunately, LeadEngine does not cover the cost of LinkedIn Sales Navigator. <br><br>
                         
-                        The exact cost of LinkedIn Sales Navigator is $79.99/month (your 1st month is free). You can <a href="https://business.linkedin.com/sales-solutions/compare-plans#1">click here</a> to sign up for LinkedIn Sales Navigator.
+                        The exact cost of LinkedIn Sales Navigator is $79.99/month (your 1st month is free). You can <a style='color:dodgerblue; text-decoration: underline' href="https://business.linkedin.com/sales-solutions/compare-plans#1">click here</a> to sign up for LinkedIn Sales Navigator.
                         
 
                 </p>
