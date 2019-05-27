@@ -128,6 +128,22 @@
   display: none;
 }
 
+/* Jumbotron Main Container */
+.jumbo-main-container{
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+}
+.jumbo-main-container .jb-divider{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumbo-main-container .jb-divider div{
+  background:white;
+  width: 3px;
+  height: 100%;
+}
 
 @media(min-width:1300px){
   .nav-items-mobile{
@@ -151,8 +167,20 @@
   .scroll-nav .hamburger {
     display: block;
   }
+  .jumbo-main-container .jb-div{
+    display: none;
+  }
+  .jumbo-main-container{
+    grid-template-columns: 1fr;
+    padding-bottom: 20px;
+    text-align: center;
+  }
 }
-
+@media(max-width: 840px){
+  .jumbo-main-container{
+    margin-top: 0px;
+  }
+}
 /* JUMBOTRON */
 .jumbotron {
   min-height: 100vh;
@@ -164,40 +192,6 @@
   color: white !important;
   
   position: relative;
-}
-
-/* Jumbo Main Container */
-.jumbotron .jumbo-main-container {
-  display: grid;
-  grid-template-columns: 1fr 500px;
-}
-.jumbotron .jumbo-main-container .jumbo-text{
-  margin-top: 70px;
-  margin-left: 50px;
-  padding-bottom: 20px;
-}
-.jumbotron .jumbo-main-container .jumbo-image{
-  display:flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.jumbotron .jumbo-main-container img{
-  width:420px;
-  bottom:0;
-  position: absolute;
-}
-
-
-
-
-@keyframes shake {
-  0% {
-    transform: translateY(0px);
-  }
-  100% {
-    transform: translateY(10px);
-  }
 }
 
 @keyframes fadeDown {
@@ -225,57 +219,19 @@
 }
 
 @media (max-width: 1300px) {
-  .jumbo-right-hand p:nth-child(1),
-  .jumbo-divider,
   .jumbotron nav .nav-items,
-  .jumbotron nav .contacts,
-  .jumbo-right-hand {
+  .jumbotron nav .contacts{
     display: none !important;
-  }
-  .jumbotron .jumbo-main-container {
-    grid-template-columns: 1fr;
   }
   .jumbotron .hamburger {
     display: block;
   }
-  .jumbo-left-hand p {
-    text-align: center !important;
-  }
-  .jumbotron .hr-med {
-    height: 50px;
-  }
   .jumbotron nav {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .jumbo-left-hand p:nth-child(1) {
-    font-size: 3em;
   }
   .jumbotron nav .brand img {
     width: 180px;
   }
-  .jumbotron .jumbo-main-container .jumbo-text{
-    text-align: center;
-    margin-top: 30px;
-    margin-left: 0px;
-  }
-  .jumbotron .jumbo-main-container .jumbo-image{
-    display: none
-  }
 }
 @media(max-width: 760px){
-  .jumbotron .jb-header{
-    font-size: 1.5em;
-    font-weight: bolder;
-  }
-  .jumbotron .jb-subheader{
-    line-height: 1.2em;
-  }
-  .jumbo-text{
-    min-height:80vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
 }

@@ -30,27 +30,23 @@
 
 
         <div class="jumbo-main-container">
-            <div class="jumbo-text">
-                <p class="jb-header text-medium text-primary text-white">
-                    Automate your business with Linkedin -
-                    LinkedIn Sales Navigator & Linkedin Recruiter ( Full & Lite )
+            
+            <div class="left-hand">
+                <p class="text-primary text-medium text-white">Automate your business with LinkedIn - LinkedIn Sales Navigator & LinkedIn Recruiter.</p>
+                <p class="text-white text-primary text-normal">LeadEngine finds your qualified prospects, composed tested outreach messages, and send thousands of personalized messages to your ideal
+                    prospects every month - get positive responses straight to your inbox
                 </p>
-                <p class="jb-subheader  text-primary">
-                    LeadEngine finds your qualified prospects, composed tested outreach messages, and send thousands of personalized messages to your ideal prospects every month - get positive responses straight to your inbox
+                <button class="btn btn-white">Free Consultation</button>
+            </div>
+
+            <div class="jb-divider"><div></div></div>
+
+            <div class="right-hand">
+                <p class='text-primary text-medium text-white'>
+                    Resell our Service, Under your Own Brand.
                 </p>
-
-
-                <br>
-
-
-                <p>
-                    <button class="btn btn-white" onclick='showPricingPage()'>See Pricing</button>
-                </p>
-            </div><!-- Jumbo Text -->
-
-            <div class="jumbo-image">
-                <img src="{{asset('images/jumbotron_person.png')}}" alt="">
-            </div><!-- Jumbo Image -->
+                <button class="btn btn-white">More Information</button>
+            </div>
 
         </div>
     </div>
