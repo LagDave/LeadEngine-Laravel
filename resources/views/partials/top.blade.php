@@ -28,7 +28,6 @@
     <link rel="stylesheet" href="{{asset('css/testimonials.css')}}">
     <link rel="stylesheet" href="{{asset('css/pricing.css')}}">
     <link rel="stylesheet" href="{{asset('css/case_study.css')}}">
-    <link rel="stylesheet" href="{{asset('css/why-lead-engine.css')}}">
     <link rel="stylesheet" href="{{asset('css/how-leadengine-works.css')}}">
     <link rel="stylesheet" href="{{asset('css/benefits.css')}}">
     <link rel="stylesheet" href="{{asset('css/companies-iconset.css')}}">
@@ -36,6 +35,9 @@
     <link rel="stylesheet" href="{{asset('css/footer.css')}}">
     <link rel="stylesheet" href="{{asset('css/new_pricing.css')}}">
     <link rel="stylesheet" href="{{asset('css/how-to-get-started.css')}}">
+
+    {{-- New Stylesheets --}}
+    <link rel="stylesheet" href="{{asset('css/kizer_image.css')}}">
 
 
 

@@ -130,6 +130,10 @@ button:focus {
   background: white;
   color:#555
 }
+.btn-orange{
+  background:orange;
+  color:white;
+}
 .btn-transparent {
   background: transparent;
 }

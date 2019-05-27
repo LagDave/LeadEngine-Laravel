@@ -36,7 +36,14 @@
                 <p class="text-white text-primary text-normal">LeadEngine finds your qualified prospects, composed tested outreach messages, and send thousands of personalized messages to your ideal
                     prospects every month - get positive responses straight to your inbox
                 </p>
-                <button class="btn btn-white">Free Consultation</button>
+                <button class="btn btn-orange">Free Consultation</button>
+                <div class="stars-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
 
             <div class="jb-divider"><div></div></div>
@@ -45,7 +52,14 @@
                 <p class='text-primary text-medium text-white'>
                     Resell our Service, Under your Own Brand.
                 </p>
-                <button class="btn btn-white">More Information</button>
+                <button class="btn btn-orange">More Information</button>
+                <div class="stars-container">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
             </div>
 
         </div>

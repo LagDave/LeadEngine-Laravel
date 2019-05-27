@@ -144,6 +144,16 @@
   width: 3px;
   height: 100%;
 }
+.jumbo-main-container .stars-container{
+  padding:20px 0;
+}
+.jumbo-main-container .stars-container i{
+  margin-right: 20px;
+  color:orange;
+}
+
+
+
 
 @media(min-width:1300px){
   .nav-items-mobile{
@@ -183,9 +193,8 @@
 }
 /* JUMBOTRON */
 .jumbotron {
-  min-height: 100vh;
+  min-height: 95vh;
   background: url('/images/jb_bg.jpg');
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;

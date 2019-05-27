@@ -4,12 +4,10 @@
 @include('components.scroll_nav')
 {{-- Jumbotron --}}
 @include('components.jumbotron')
-{{-- Why LeadEngine --}}
-@include('components.why_leadengine')
+{{-- Kizer Image Component --}}
+@include('components.kizer_image')
 {{-- How LeadEngine Works --}}
 @include('components.how_leadengine_works')
-{{-- Free Consultation --}}
-@include('components.free_consultation')
 {{-- Benefits --}}
 @include('components.benefits')
 {{-- Testimonials --}}
