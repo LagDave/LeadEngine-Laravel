@@ -36,13 +36,15 @@
                 <p class="text-white text-primary text-normal">LeadEngine finds your qualified prospects, composed tested outreach messages, and send thousands of personalized messages to your ideal
                     prospects every month - get positive responses straight to your inbox
                 </p>
-                <button class="btn btn-orange">Free Consultation</button>
-                <div class="stars-container">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                <div class="btn-and-stars">
+                    <button class="btn btn-orange">Free Consultation</button>
+                    <div class="stars-container">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
             </div>
 
@@ -50,15 +52,17 @@
 
             <div class="right-hand">
                 <p class='text-primary text-medium text-white'>
-                    Resell our Service, Under your Own Brand.
+                    Resell our<br> Service,<br> Under your<br> Own Brand.
                 </p>
-                <button class="btn btn-orange">More Information</button>
-                <div class="stars-container">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
+                <div class="btn-and-stars">
+                    <button class="btn btn-orange">More Information</button>
+                    <div class="stars-container">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
                 </div>
             </div>
 
