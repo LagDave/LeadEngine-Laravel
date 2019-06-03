@@ -1,72 +1,70 @@
-<div class="container">
+
+
+<div class="progress-container">
+    <ul class="progressbar">
+        <li class="text-primary text-grey active">Personal Information</li>
+        <li class='text-primary text-grey active'>Payment Process</li>
+        <li class='text-primary text-grey active'>Survey</li>
+        <li class='text-primary text-grey '>Success</li>
+    </ul>
+</div>
+
+<div style='clear:both; padding-top:50px;' class="container">
     <div class="form-container">
         <form onsubmit="showLoader()"  method='POST' action="{{route('signup.validateForm')}}" class="form">
             @csrf
             <p class="text-medium ">SIGN UP NOW</p>
             <br>
-            <div class="columns">
-                <div class="field column">
-                    <label class='label'>First Name</label>
-                    <input value="{{old('first_name')}}" id='first_name' name='first_name' type="name" class="input" required>
-                </div>
-                <div class="field column">
-                    <label class='label'>Last Name</label>
-                    <input value="{{old('last_name')}}" id='last_name' name='last_name' type="name" class="input" required>
-                </div>
+
+            {{--  --}}
+            <div class="field">
+                <label class='label'>Full Name</label>
+                <input value="{{request()->session()->get('full_name') ?? old('name')}}" id='first_name' name='name' type="text" class="input" required>
             </div>
             <div class="columns">
                 <div class="field column">
                     <label class='label'>Email Address</label>
-                    <input value="{{old('email')}}" id='email' name='email' type="email" class="input" required>
+                    <input value="{{request()->session()->get('email') ?? old('email')}}" id='email' name='email' type="email" class="input" required>
                 </div>
                 <div class="field column">
-                    <label class='label'>Phone Number</label>
+                    <label class='label'>Mobile Number</label>
                     <input value="{{old('number')}}" id='number' name='number' type="number" class="input" required>
                 </div>
             </div>
-            <div class="field">
-                <label class='label'>Company Name</label>
-                <input value="{{old('company_name')}}" id='company_name' name='company_name' type="text" class="input" required>
-            </div>
-            <div class="field">
-                <label class='label'>Billing Address</label>
-                <input value="{{old('billing_address')}}" id='billing_address' name='billing_address' type="text" class="input" required>
-            </div>
             <div class="columns">
                 <div class="field column">
-                    <label class='label'>City</label>
-                    <input value="{{old('city')}}" id='city' name='city' type="text" class="input" required>
+                    <label class='label'>Company Name</label>
+                    <input value="{{old('company_name')}}" id='company_name' name='company_name' type="text" class="input" required>
                 </div>
+
+                {{--  --}}
                 <div class="field column">
-                    <label class='label'>State</label>
-                    <input value="{{old('state')}}" id='state' name='state' type="text" class="input" required>
-                </div>
-                <div class="field column">
-                    <label class='label'>Zip Code</label>
-                    <input value="{{old('zipcode')}}" id='zipcode' name='zipcode' type="text" class="input" required>
+                    <label for="" class="label">Company Website URL</label>
+                    <input value="{{old('website_url')}}" type="text" name='website_url' class="input">
                 </div>
             </div>
-            <hr>
-            <p class='text-mednorm  text-bold text-center'>Onboarding Survey</p>
-            <br>
-            <p class="text-small text-grey text-center ">This helps us to identify your dream clients and<br> craft the best messaging to increase your response rate.</p>
-            <hr>
+
+            {{--  --}}
+            <div class="field">
+                <label for="" class="label">Full name of the LinkedIn account where the system will run</label>
+                <input value="{{old('linkedin_account')}}" type="text" name='linkedin_account' class="input">
+            </div>
 
             <!-- Onboarding Survey -->
 
-            <div class="field column">
+            <div class="field">
                 <label class='label'>Rank the top 3 Locations you're targeting</label>
                 <textarea placeholder='Example: 1. Utah, 2. Florida, 3. Houston' name="top_3_locations" rows="5" class="textarea">{{old('top_3_locations')}}</textarea>
             </div>
 
 
-            <div class="field column">
+            <div class="field">
                 <label class="label">Target Industries (Choose as many as you like)</label>
-                <button type='button' onclick='showIndustriesModal()' class="button is-info">Click Here to Choose</button>
+                <button type='button' onclick='showIndustriesModal()' class="btn btn-blue">Click Here to Choose</button>
             </div>
 
 
-            <div class="field column">
+            <div class="field">
                 <div style='z-index:999999999999999' id='industries_modal' class="modal">
                     <div class="modal-background"></div>
                     <div class="modal-card">
@@ -98,31 +96,100 @@
 
                         </section>
                         <footer class="modal-card-foot">
-                            <button type='button' onclick='closeIndustriesModal()' class="button is-fullwidth is-info">Done</button>
+                            <button type='button' onclick='closeIndustriesModal()' class="btn btn-blue btn-wide">Done</button>
                         </footer>
                     </div>
                 </div>
             </div>
 
-            <div class="field column">
-                <label class="label">The Titles / Profession You're Targeting</label>
-                <textarea placeholder="Example: VP of Digital Marketing, Head of Engineering, IT Director" name="target_titles" rows="5" class="textarea">{{old('target_titles')}}</textarea>
+            <div class="field">
+                <label for="" class="label">Of your chosen industries, Rank the Top 3</label>
+                <input type="text" name='top_3_industries' class="input">
+            </div>
+            
+            <div class="field">
+                <label for="" class="label">What exactly do you do in one sentence?</label>
+                <textarea placeholder="(Ex. Lead Engine sends thousands of personalized LinkedIn messages for only $79 a month.)" name="what_exactly_customers_do" id="" rows="5" class="textarea"></textarea>
             </div>
 
-            <div class="field column">
-                <label class="label">Give a brief summary of what your company provides, and the problem that it solves for your clients</label>
-                <textarea name="summary" rows="5" class="textarea"></textarea>
+            <div class="field">
+                <label for="" class="label">Describe your ideal prospect</label>
+                <input type="text" name='ideal_prospect' class="input">
             </div>
 
-            <div class="field column">
-                <label class="label">Do you have any industry facts or data that we could use to strengthen your outreach messages?</label>
-                <textarea placeholder="Example: 88% of employees say paid time off is important." name="industry_facts" rows="5" class="textarea">{{old('industry_facts')}}</textarea>
+            <div class="field">
+                <label for="" class="label">What is the biggest problem/pain point your company is solving for your clients?</label>
+                <input type="text" name='biggest_problem' class="input">
             </div>
 
+            <div class="field">
+                <label for="" class="label">What are the consequences of potential clients not solving that pain?</label>
+                <input type="text" name='consequences' class="input">
+            </div>
+
+            <div class="field">
+                <label for="" class="label">Are you solving your clients' problem uniquely? If yes, how?</label>
+                <input type="text" name='solving_problems' class="input">
+            </div>
+
+            <div class="field">
+                <label class='label'>What differentiates you from competitors? Why would someone switch or choose you?</label>
+                <input type="text" name='differentiates_competitors' class="input">
+            </div>
+
+            <div class="field">
+                <label for="" class="label">Do you have any relevant links that would provide value to your prospects? If yes, please paste the link here.</label>
+                <textarea placeholder='We always try to add as much value as we can to our messaging in order to generate a high response rate. Example: The Essential LinkedIn B2B Marketing Guide for 2019.' name="relevant_links" id="" rows="5" class="textarea"></textarea>
+            </div>
+
+            <div class="field">
+                <label for="" class="label">Can you provide us with an example of your most successful cold outreach message(s)?</label>
+                <textarea placeholder='(Just for reference, we will re-write based off our best practices)' name="successful_message" rows="5" class="textarea"></textarea>
+            </div>
+
+            <div class="field">
+                <label for="" class="label">Do you have social proof (credibility) for us to incorporate in your outreach message? If yes, please provide it below and include any notable companies you've worked with.</label>
+                <input type="text" name='social_proof' class="input">
+            </div>
+
+            <div class="field">
+                <label for="" class="label">Do you have an irresistible offer you use to attract potential customers? If yes, what is it?</label>
+                <textarea name="irresistible_offer"rows="5" class="textarea"></textarea>
+            </div>
+
+            <div class="field">
+                <label for="" class="label">What is your preferred call to action?</label>
+                <div class="select">
+                    <select name="call_to_action">
+                        <option value="schedule_a_call">Schedule a call</option>
+                        <option value="schedule_a_demo">Schedule a demo</option>
+                        <option value="direct_to_website">Direct them to your website</option>
+                        <option value="request_phone_number">Request phone number</option>
+                        <option value="just_building_rapport">Just building rapport</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="field">
+                <label for="" class="label">Do you have a calendar link for prospects to book calls directly with you? If yes, please paste the link below before your onboarding call. If no, you don't need one.</label>
+                <input type="text"name='calendar_link' placeholder="https://calendly.com/" class="input">
+            </div>
+
+            <div class="field">
+                <label for="" class="label">How did you hear about us?</label>
+                <div class="select">
+                    <select name="how_did_client_hear_about_us">
+                        <option value="google_ad">Google Ad</option>
+                        <option value="referral">Referral</option>
+                        <option value="linkedin">LinkedIn Cold Outreach</option>
+                        <option value="facebook_ad">Facebook Ad</option>
+                        <option value="linkedin_ad">LinkedIn Ad</option>
+                    </select>
+                </div>
+            </div>
 
             <br>
             <button class="btn btn-blue btn-wide">SIGNUP</button>
-
 
             <div class="images-container">
 

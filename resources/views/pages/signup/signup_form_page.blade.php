@@ -3,6 +3,7 @@
 {{-- Page Specific Stylesheets --}}
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.css">
 <link rel="stylesheet" href="{{asset('css/form.css')}}">
+<link rel="stylesheet" href="{{asset('css/signup_process.css')}}">
 <link rel="stylesheet" href="{{asset('css/loader.css')}}">
 
 
@@ -14,6 +15,8 @@
 
 {{-- Form --}}
 <br><br><br><br><br> {{-- This is to give space between the navigation bar and the signup form --}}
+
+
 @include('components.signup_form')
 <br> {{-- This is to give space between the signup form and the footer --}}
 

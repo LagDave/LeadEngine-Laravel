@@ -1,6 +1,12 @@
 @include('partials.top')
 {{-- Page Specific stylesheets --}}
 <link rel="stylesheet" href="{{asset('css/loader.css')}}">
+<link rel="stylesheet" href="{{asset('css/signup_process.css')}}">
+
+
+
+  
+
 
 {{-- Navigation Bar --}}
 @include('components.scroll_nav')
@@ -8,6 +14,17 @@
 
 @include('components.nav_items_mobile')
 
+<div class="progress-container">
+    <ul class="progressbar">
+      <li class="text-primary text-grey active">Personal Information</li>
+      <li class='text-primary text-grey active'>Payment Process</li>
+      <li class='text-primary text-grey '>Survey</li>
+      <li class='text-primary text-grey '>Success</li>
+    </ul>
+  </div>
+</div>
+
+<br><br><br><br><br>
 {{-- Plan Component --}}
 @include('components.plan_component')
 
@@ -26,7 +43,5 @@
 @include('partials.bottom')
 {{-- Page Specific Scripts --}}
 <script src="{{asset('js/static_navbar.js')}}"></script>
-<script src="https://www.paypalobjects.com/api/checkout.js"></script>
 <script src="{{asset('js/loader_summoner.js')}}"></script>
 <script src='{{asset('js/pricing_calculator.js')}}'></script>
-<script src='{{asset('js/paypal_buttons.js')}}'></script>

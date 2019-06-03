@@ -1,7 +1,6 @@
 <div class="pricing2-container">
 
     <div class="pricing">
-                <p class="text-purple text-normal text-center text-primary"><span class="text-bold">1.</span> Select a Plan</p>
             <div class="price-and-calculator-container">
                 
                 <div class="price-text-container">
@@ -31,17 +30,13 @@
                         <option value='annually' span class='text-primary'>12 Months</span></option>
                     </select>
                 </div>
+
                 <br>
+                <div class='checkout-container' style='width:100%; display:flex; align-items:center; justify-content:center'>
+                </div>
                 
             </div>
-            
-            <br>
-            <p class="text-purple text-normal text-center text-primary"><span class="text-bold">2.</span> Checkout</p>
-                <div style='max-width:400px; margin:0 auto'>{{-- This is the container of the paypal button --}}
-                    <div id="paypal-button"></div>
-                </div>
-            <br>
-
+            <br><br>
             <table>
                 <tr>
                     <td>
