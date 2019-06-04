@@ -32,7 +32,7 @@
                 </div>
 
                 <br>
-                <div class='checkout-container' style='width:100%; display:flex; align-items:center; justify-content:center'>
+                <div class='checkout-container' style='width:100%; display:flex; align-items:center; justify-content:center; transform: scale(1.3, 1.3'>
                 </div>
                 
             </div>

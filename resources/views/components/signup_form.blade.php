@@ -2,7 +2,7 @@
 
 <div class="progress-container">
     <ul class="progressbar">
-        <li class="text-primary text-grey active">Personal Information</li>
+        <li class="text-primary text-grey active">Sign up</li>
         <li class='text-primary text-grey active'>Payment Process</li>
         <li class='text-primary text-grey active'>Survey</li>
         <li class='text-primary text-grey '>Success</li>
@@ -13,7 +13,7 @@
     <div class="form-container">
         <form onsubmit="showLoader()"  method='POST' action="{{route('signup.validateForm')}}" class="form">
             @csrf
-            <p class="text-medium ">SIGN UP NOW</p>
+            <p class="text-medium ">Complete Questionnaire</p>
             <br>
 
             {{--  --}}
