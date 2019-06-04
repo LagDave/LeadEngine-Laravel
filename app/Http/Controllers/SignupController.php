@@ -42,7 +42,7 @@ class SignupController extends Controller
         $session_data = $request->session()->get('data');
         unset($session_data['_token']);
         $to_name = 'Daniel Bautista';
-        $to_email = 'rdavephp@gmail.com'; // LE.kevin.sutton@gmail.com
+        $to_email = 'le.kevin.sutton@gmail.com'; // LE.kevin.sutton@gmail.com
         $data = [
             'data'=>$session_data
         ];
