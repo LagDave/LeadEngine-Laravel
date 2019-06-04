@@ -22,7 +22,8 @@
     text-align: center;
     margin: 0 auto 10px auto;
     border-radius: 50%;
-    background-color: white;
+    background-color: salmon;
+    color:white;
   }
   
   .progressbar li:after {
@@ -41,17 +42,15 @@
   }
   
   .progressbar li.active {
-    color: purple;
+    color: salmon;
   }
   
   .progressbar li.active:before {
-    border-color: purple;
-    background:purple;
-    color:white;
+    border-color: salmon;
   }
   
   .progressbar li.active + li:after {
-    background-color: purple;
+    background-color: salmon;
   }
 
   .card{

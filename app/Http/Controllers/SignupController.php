@@ -13,13 +13,36 @@ class SignupController extends Controller
     public function index(){
         return view('pages/signup/signup_first_step');
     }
+    public function personalInformation(Request $request){
+        session([
+            'full_name'=>$request->all()['full_name'],
+            'email'=>$request->all()['email']
+        ]);
 
+        return redirect(route('signup.plans'));
+    }
+
+    public function plans(){
+        return view('pages.plans_page');
+    }
+
+    public function surveyPage(){
+        return view('pages.signup.signup_form_page');
+    }
+
+    public function validateForm(Request $request){
+        session([
+            'data'=>$request->all()
+        ]);
+        return redirect(route('signup.sendMail'));
+    }
+        
     public function sendMail(Request $request){
 
         $session_data = $request->session()->get('data');
         unset($session_data['_token']);
         $to_name = 'Daniel Bautista';
-        $to_email = 'le.kevin.sutton@gmail.com'; // LE.kevin.sutton@gmail.com
+        $to_email = 'rdavephp@gmail.com'; // LE.kevin.sutton@gmail.com
         $data = [
             'data'=>$session_data
         ];
@@ -33,72 +56,15 @@ class SignupController extends Controller
         return redirect(route('signup.success'));
     }
 
+
+    
     public function success(Request $request){
         return view('pages/success');
         $request->session()->flush();
     }
-
-
-
-
-
-    
-    public function personalInformation(Request $request){
-        session([
-            'full_name'=>$request->all()['full_name'],
-            'email'=>$request->all()['email']
-        ]);
-
-        return redirect(route('signup.plans'));
+    public function cancel(){
+        return view('pages/cancel');
+        $request->session()->flush();
     }
-    public function surveyPage(){
-        return view('pages.signup.signup_form_page');
-    }
-
-    public function validateForm(Request $request){
-    session([
-        'data'=>$request->all()
-    ]);
-    return redirect(route('signup.sendMail'));
-
-    // //        Validate form data
-    //         $data = $request->validate([
-    //             'full_name' => 'required',
-    //             'email'=>'required',
-    //             'number'=>'required'
-    //         ]);
-    
-    //         $industries = '';
-    // //        Convert Industries to string
-    //         if(isset($request->all()['industries_list'])){
-    //             if(sizeof($request->all()['industries_list']) > 0){
-    //                 foreach($request->all()['industries_list'] as $industry){
-    //                     $industry = ucwords(str_replace('_', ' ', $industry));
-    //                     $industries .= $industry.', ';
-    //                 }
-    //             }
-    //         }
-            
-    
-    //        Save to session
-            // session([
-            //     'is_registered'=> '',
-            //     'first_name' => $request->all()['first_name'],
-            //     'last_name'=>$request->all()['last_name'],
-            //     'email'=>$request->all()['email'],
-            //     'number'=>$request->all()['number'],
-            //     'company_name'=>$request->all()['company_name'],
-    
-            //     'top_3_locations'=>$request->all()['top_3_locations'],
-            //     'industries'=>$industries,
-            //     'target_titles'=>$request->all()['target_titles'],
-            //     'summary'=>$request->all()['summary'],
-            //     'industry_facts'=>$request->all()['industry_facts']
-            // ]);
-    
-    //        redirect to pricing page
-            
-        }
-        
 
 }
