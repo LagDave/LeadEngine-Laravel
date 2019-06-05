@@ -1,0 +1,28 @@
+
+    .jumbo-main-container{
+        margin-top: 80px !important;
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    p.text-bigmed{
+        margin-bottom: 5px;
+    }
+    p.text-mednorm.jumbo-subhead{
+        color:#aaa;
+    }
+
+    div.resell-component2-things{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+    div.resell-reminders{
+        background:#fafafa;
+        margin:0;
+        padding:40px 0;
+    }
+    @media(max-width:840px){
+        div.resell-component2-things{
+        grid-template-columns: 1fr;
+        }
+    }

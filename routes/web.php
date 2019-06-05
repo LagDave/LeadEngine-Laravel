@@ -16,3 +16,6 @@ Route::get('/signup/cancel', 'SignupController@cancel')->name('signup.cancel');
 
 //  FAQ PAGE
 Route::get('/faq', 'FaqController@index')->name('faq');
+
+// Resell PAGE
+Route::get('/resell', 'ResellController@index')->name('resell');

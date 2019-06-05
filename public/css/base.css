@@ -96,10 +96,7 @@ hr{
 }
 
 .text-primary {
-  font-family: "Raleway";
-}
-.text-cursive{
-  font-family: "Pacifico";
+  font-family: "Roboto";
 }
 /* TEXT */
 
@@ -107,7 +104,7 @@ hr{
 .btn {
   border: none;
   border-radius: 30px;
-  font-family: "Montserrat";
+  font-family: "Roboto";
   color: white;
   padding: 15px 25px;
   font-size: 1em;

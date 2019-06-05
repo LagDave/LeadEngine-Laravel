@@ -17,6 +17,7 @@
                 <a onclick='showPricingPage()' class='text-primary text-small nav-item'>Pricing</a>
                 <a onclick='showCaseStudyPage()' class='text-primary text-small nav-item'>Case Study</a>
                 <a href='{{route('signup.index')}}' class='text-primary text-small nav-item'>Sign Up</a>
+                <a href='{{route('resell')}}' class='text-primary text-small nav-item'>Resell</a>
                 <a style='border: 2px solid #aaa; font-size:.8em; padding:10px 0' href='https://calendly.com/leadengine-support/15min' class='text-primary text-small   nav-item' >Free Consultation</a>
 
             </div>
@@ -55,7 +56,8 @@
                     Resell our<br> Service,<br> Under your<br> Own Brand.
                 </p>
                 <div class="btn-and-stars">
-                    <button class="btn btn-orange">More Information</button>
+                    <a href="{{route('resell')}}" class="btn btn-orange">More Information</a>
+                    <br><br>
                     <div class="stars-container">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
