@@ -37,13 +37,15 @@
         </p>
 
         <p style='max-width:900px; margin:0 auto' class='text-grey text-dbl-line-height text-primary text-small'>
-            1. Your LinkedIn Username & Password
+            <b>1. Your LinkedIn Username & Password</b>
+            <br>
             Our automated system runs inside your LinkedIn account. To start the campaign, we must be able to get inside your account.
             Your credentials are secured and will not be shared with anyone. You will receive an email from our support team requesting for your username & password in your account.
         </p>
         <br>
         <p  style='max-width:900px; margin:0 auto' class='text-grey text-dbl-line-height text-primary text-small'>
-            2. Have your Sales Navigator Premium Service ready
+            <b>2. Have your Sales Navigator Premium Service ready</b>
+            <br>
             Your account must have this premium service in your LinkedIn account for the campaign to start. You can find that on the upper right part of your profile page in LinkedIn. It’s free for a month then becomes $79/month after. You can <a style='color:dodgerblue' href="https://business.linkedin.com/sales-solutions/compare-plans#1">CLICK HERE</a> to sign up for your Sales Navigator
         </p>
         </ol>

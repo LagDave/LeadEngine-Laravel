@@ -3,7 +3,20 @@
 @include('components.nav_items_mobile')
 
 <link rel="stylesheet" href="{{asset('css/loader.css')}}">
+<link rel="stylesheet" href="{{asset('css/signup_process.css')}}">
 
+
+<br><br><br><br><br>
+<div class="progress-container">
+    <ul class="progressbar">
+        <li class="text-primary text-grey active">Sign up</li>
+        <li class='text-primary text-grey active'>Payment Process</li>
+        <li class='text-primary text-grey active'>Onboarding Survey</li>
+        <li class='text-primary text-grey '>Success</li>
+    </ul>
+    </div>
+</div>
+    
 <br><br><br><br><br>
 <div class="container">
     <p class="text-bold text-primary text-medium text-center">On-Boarding Survey</p>

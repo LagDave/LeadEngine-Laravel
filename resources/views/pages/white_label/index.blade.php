@@ -48,5 +48,8 @@
 
 @include('components.pricing_component')
 @include('components.case_study_component')
+
+@include('components.footer')
+
 @include('partials.bottom')
 <script src="{{asset('js/static_navbar.js')}}"></script>
