@@ -2,6 +2,8 @@
 @include('components.scroll_nav')
 @include('components.nav_items_mobile')
 
+<link rel="stylesheet" href="{{asset('css/loader.css')}}">
+
 <br><br><br><br><br>
 <div class="container">
     <p class="text-bold text-primary text-medium text-center">On-Boarding Survey</p>
@@ -29,9 +31,13 @@
 </div>
 <br><br>
 
+{{-- Loader --}}
+@include('components.loader')
+
 @include('components.footer')
 @include('partials.bottom')
 <script src="{{asset('js/static_navbar.js')}}"></script>
+<script src="{{asset('js/loader_summoner.js')}}"></script>
 <script>
     function redirectToSuccess(){
         showLoader();
