@@ -47,7 +47,7 @@ class WhiteLabelController extends Controller
         });
         $request->session()->flush();
 
-        return redirect(route('white_label.success'));
+        return redirect(route('whiteLabel.success'));
     }
     public function success(){
         return view('pages.white_label.success');
