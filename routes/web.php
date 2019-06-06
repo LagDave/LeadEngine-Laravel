@@ -26,3 +26,4 @@ Route::post('white_label/signup', 'WhiteLabelController@signup')->name('whiteLab
 Route::get('white_label/payment', 'WhiteLabelController@payment')->name('whiteLabel.payment');
 Route::get('white_label/survey', 'WhiteLabelController@survey')->name('whiteLabel.survey');
 Route::get('white_label/sendMail', 'WhiteLabelController@sendMail')->name('whiteLabel.sendMail');
+Route::get('white_label/success', 'WhiteLabelController@success')->name('whiteLabel.success');

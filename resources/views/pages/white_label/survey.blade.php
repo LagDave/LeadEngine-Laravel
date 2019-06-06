@@ -34,6 +34,7 @@
 <script src="{{asset('js/static_navbar.js')}}"></script>
 <script>
     function redirectToSuccess(){
-        window.location.href = "http://localhost:8000/white_label/sendMail";
+        showLoader();
+        window.location.href = "http://web.leadengine.live/white_label/sendMail";
     }
 </script>
