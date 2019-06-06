@@ -56,17 +56,21 @@
         <br><br>
         <div class="resell-component2-things">
             <div>
-                <p class="text-mednorm text-primary text-bold">Have it your way</p>
+                <p style="margin:0; color:purple" class="text-center text-primary text-big"><i class="fas fa-lightbulb"></i></p>
+                <p class="text-center text-mednorm text-primary text-bold">Have it your way</p>
                 <p class="text-primary text-normal text-grey text-dbl-line-height">You can create your own brand and market the service in your own terms. Set your own price or additional set up fees, it’s your call.</p>
             </div>
 
             <div>
-                <p class="text-mednorm text-primary text-bold">Full Assistance</p>
+                <p style="margin:0; color:purple" class="text-center text-primary text-big"><i class="fas fa-handshake"></i></p>
+                <p class="text-center text-mednorm text-primary text-bold">Full Assistance</p>
                 <p class="text-primary text-normal text-grey text-dbl-line-height">Our support team and customer service team is here to back you up and handle all your client's accounts, inquiries, or change request in their campaigns. They can contact support anytime through email. We will provide a general email address to you that you can give to your clients whenever they wish to contact our support team. Don't worry, we will use a general support email address because we understand that you have a brand on your own.</p>
             </div>
 
             <div>
-                <p class="text-mednorm text-primary text-bold">Dedicated Manager</p>
+                <p style="margin:0; color:purple" class="text-center text-primary text-big"><i class="fas fa-user"></i></p>
+
+                <p class="text-center text-mednorm text-primary text-bold">Dedicated Manager</p>
                 <p class="text-primary text-normal text-grey text-dbl-line-height">You will have a point-of-contact person to guide you all the way.</p>    
             </div>
         </div>

@@ -16,6 +16,13 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 20px;
     }
+    div.resell-component2-things div{
+        background:white;
+        box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+        padding:20px;
+        box-sizing: border-box;
+        border-radius: 30px;
+    }
     div.resell-reminders{
         background:#fafafa;
         margin:0;

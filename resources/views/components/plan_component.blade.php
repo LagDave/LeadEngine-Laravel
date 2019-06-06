@@ -8,7 +8,7 @@
                         <p class="text-mednorm text-center">
                             <span class="text-grey text-bold text-medium text-primary price">
                                 <sup style='font-size:.6em'>$ </sup>
-                                <span class="price-value"> 79</span><span class="cent">.99</span>
+                                <span class="price-value"> 165</span><span class="cent">.00</span>
                             </span>
                         </p>
                         <p class="text-mednorm text-primary text-bold text-purple text-center comment"></p>

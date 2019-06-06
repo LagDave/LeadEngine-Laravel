@@ -9,16 +9,9 @@
 </head>
 <body>
 
-    <h3>A new client has signed up</h3>
+    <h3>New Successful White Label Signup</h3>
     <hr>
     <pre>
-
-        <p>Basic Information</p>
-        <h1>Full Name: <b>{{$full_name}}</b></h4>
-        <h1>Email: <b>{{$email}}</b></h1>
-
-        <hr>
-        <p>More Information</p>
         <?php print_r($data) ?>
     </pre>
 

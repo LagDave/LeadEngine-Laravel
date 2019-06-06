@@ -22,7 +22,7 @@
 
 <div class="container">
     <div class="card">
-        <p class="text-bold text-center text-primary">Personal Information</p>
+        <p class="text-bold text-center text-primary">Sign up</p>
         <hr>
         <p class="text-primary text-nano text-grey">Full Name:</p>
         

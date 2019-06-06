@@ -9,11 +9,14 @@
     </ul>
 </div>
 
+
+
 <div style='clear:both; padding-top:50px;' class="container">
     <div class="form-container">
         <form onsubmit="showLoader()"  method='POST' action="{{route('signup.validateForm')}}" class="form">
             @csrf
             <p class="text-medium ">Complete Questionnaire</p>
+
             <br>
 
             {{--  --}}

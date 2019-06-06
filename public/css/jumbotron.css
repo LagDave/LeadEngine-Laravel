@@ -64,7 +64,7 @@
 }
 .jumbotron nav .nav-items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1.5fr;
   align-items: center;
 
 }
@@ -77,9 +77,9 @@
 
 
 .jumbotron nav .nav-items .nav-item:hover {
-  padding-bottom: 5px;
-  border-bottom: 2px solid white;
-
+  padding-bottom: 15px;
+  border-bottom: 1px solid white;
+  color:white !important;
 }
 .jumbotron nav .contacts {
   display: grid;
@@ -88,7 +88,17 @@
   justify-items: end;
   align-items: center;
 }
-
+.jumbotron nav .free_consultation{
+  border: 1px solid #aaa;
+  padding:10px 0;
+  box-sizing: border-box;
+}
+.jumbotron nav .free_consultation:hover{
+  border: 1px solid white;
+  padding-bottom: 10px !important;
+  border-bottom: 1px solid white !important;
+  color:white !important;
+}
 
 
 /* Nav Items Mobile */

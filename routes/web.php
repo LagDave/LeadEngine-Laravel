@@ -19,3 +19,10 @@ Route::get('/faq', 'FaqController@index')->name('faq');
 
 // Resell PAGE
 Route::get('/resell', 'ResellController@index')->name('resell');
+
+// White Labelling Page
+Route::get('white_label', 'WhiteLabelController@index')->name('whiteLabel');
+Route::post('white_label/signup', 'WhiteLabelController@signup')->name('whiteLabel.signup');
+Route::get('white_label/payment', 'WhiteLabelController@payment')->name('whiteLabel.payment');
+Route::get('white_label/survey', 'WhiteLabelController@survey')->name('whiteLabel.survey');
+Route::get('white_label/sendMail', 'WhiteLabelController@sendMail')->name('whiteLabel.sendMail');
