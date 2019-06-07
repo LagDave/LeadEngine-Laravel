@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="{{asset('css/form.css')}}">
 
 <br><br><br><br><br>
+<p class="text-center text-mednorm text-primary">Steps on White labeling Lead Engine</p>
+<br>
 <div class="progress-container">
     <ul class="progressbar">
       <li class="text-primary text-grey active">Sign up</li>
@@ -19,6 +21,7 @@
 
 <div class="container">
     <div class="card">
+
         <p class="text-bold text-center text-primary">Sign up</p>
         <hr>
 

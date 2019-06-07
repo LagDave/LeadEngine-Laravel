@@ -19,12 +19,12 @@
 }
 .scroll-nav .container {
   display: grid;
-  grid-template-columns: 1fr 1.5fr 1fr;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 .scroll-nav .container .nav-items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
   align-items: center;
 }
 .scroll-nav .active {
@@ -151,8 +151,8 @@
 }
 .jumbo-main-container .jb-divider div{
   background:white;
-  width: 3px;
-  height: 70%;
+  width: 1.5px;
+  height: 75%;
 }
 .jumbo-main-container .stars-container{
   padding:20px 0;
