@@ -16,6 +16,7 @@
             <a onclick='showPricingPage()' class='text-primary text-normal nav-item'>Pricing</a>
             <a onclick='showCaseStudyPage()' class='text-primary text-normal nav-item'>Case Study</a>
             <a class='text-primary text-normal nav-item' href="{{route('resell')}}">Resell</a>
+            <a class='text-primary text-normal nav-item' href="{{route('signup.index')}}">Sign up</a>
 
         </div>
 
