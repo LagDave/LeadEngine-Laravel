@@ -1,10 +1,19 @@
 .container.kizer{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
-    justify-content: center;
-    padding-top: 50px;
+    padding-top:50px;
 }
 .container.kizer img{
-    width: 100%;
+    width: 80%;
     max-width:550px;
+}
+
+@media(max-width:760px){
+    .container.kizer{
+        grid-template-columns: 1fr;
+    }
+    .container.kizer img{
+        width: 100%;
+    }
 }

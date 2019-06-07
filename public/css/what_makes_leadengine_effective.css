@@ -1,0 +1,17 @@
+.what-makes-leadengine-effective{
+    background:#dfdfdf46;
+}
+.what-makes-leadengine-effective .container{
+    padding: 50px 0;
+}
+.what-makes-leadengine-effective .container .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+@media(max-width:960px){
+    .what-makes-leadengine-effective .container .grid{
+        grid-template-columns: 1fr ;
+    }
+}

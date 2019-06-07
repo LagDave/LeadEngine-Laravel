@@ -17,7 +17,7 @@ $(".hamburger").click(() => {
 $(document).ready(function () {
   $(document).scroll(function () {
     var y = $(this).scrollTop();
-    if (y > 500) {
+    if (y > 10) {
       showScrollNav();
     } else {
       hideScrollNav();

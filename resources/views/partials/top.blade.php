@@ -36,6 +36,8 @@
 
     {{-- New Stylesheets --}}
     <link rel="stylesheet" href="{{asset('css/kizer_image.css')}}">
+    <link rel="stylesheet" href="{{asset('css/what_is_leadengine.css')}}">
+    <link rel="stylesheet" href="{{asset('css/what_makes_leadengine_effective.css')}}">
 
 
 

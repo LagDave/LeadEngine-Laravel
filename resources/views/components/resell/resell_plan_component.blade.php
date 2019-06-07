@@ -37,89 +37,13 @@
                 
             </div>
             <br><br>
-            <table>
-                <tr>
-                    <td>
-                        <p class="text-primary text-small text-bold">Daily Connection Request</p>
-                        <p class="text-primary text-small">LeadEngine’s premium use is making connections In Linkedin</p>
-                    </td>
-                    <td>
-                        <p class="pricing-attribute text-bold text-primary text-small">3,000 connection request per month</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-primary text-small text-bold">Daily InMails (up to)</p>
-                        <p class="text-primary text-small">LeadEnginge increases your standard InMail limit to reach more connections!</p>
-                    </td>
-                    <td>
-                        <p class="pricing-attribute text-bold text-primary text-small">150 Daily Inmails to 2nd and 3rd Connections</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-primary text-small text-bold">Drip Campaign inside LinkedIn</p>
-                        <p class="text-primary text-small">Automates sending messages to new contacts until they Respond</p>
-                    </td>
-                    <td>
-                        <p class="pricing-attribute text-bold text-primary text-small">2 touch messages every month</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-primary text-small text-bold">Enriched Lead Sheet</p>
-                        <p class="text-primary text-small">See your leads grow continuously as connections are made
-                            Sheet includes details such as Emails, Phone #, 
-                            Company name, Background, interest, and lot more 
-                            about your new connections
-                            </p>
-                    </td>
-                    <td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-primary text-small text-bold">Dedicated Account Manager</p>
-                        <p class="text-primary text-small">Get to have a personal point-of-contact person whenever
-                            You would change anything or if you have questions.                          
-                            </p>
-                    </td>
-                    <td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-primary text-small text-bold">Script Creation</p>
-                        <p class="text-primary text-small">We work with you to evaluate your solution to your target clients
-                            So we can compose messages for each touchpoint
-                            Make sure to identify your ‘call-to-action’	                      
-                            </p>
-                    </td>
-                    <td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-primary text-small text-bold">Technical Support</p>
-                        <p class="text-primary text-small">24/7 support team ready to assist you with your concerns	                      
-                            </p>
-                    </td>
-                    <td>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <p class="text-primary text-small text-bold">Inbox Cleaner</p>
-                        <p class="text-primary text-small">Once LeadEngine gets cranking, your Inbox will be busy. 
-                            We ensure your productivity by cleaning up your Inbox daily, 
-                                keeping only the most relevant leads.  
-                                                    
-                            </p>
-                    </td>
-                    <td>
-                    </td>
-                </tr>
-            </table>
+            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">100/day connection request or  3,000/month connection request per campaign</p>
+            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">500 to 700 contact details of new connections compiled in a CSV file
+                </p>
+            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">Custom auto-messaging to new connections (Optional)</p>
+            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">Dedicated account manager</p>
+            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">24/7 technical support</p>
+            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">Inbox cleaner</p>
         </div>
 
         

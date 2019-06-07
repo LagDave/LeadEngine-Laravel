@@ -4,6 +4,11 @@
 @include('components.scroll_nav')
 {{-- Jumbotron --}}
 @include('components.jumbotron')
+
+{{-- What is Leadengine Compoennt --}}
+@include('components.what_is_leadengine')
+{{-- What makes LeadEngine effective --}}
+@include('components.what_makes_leadengine_effective')
 {{-- Kizer Image Component --}}
 @include('components.kizer_image')
 {{-- How LeadEngine Works --}}

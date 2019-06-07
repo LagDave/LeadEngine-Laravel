@@ -16,9 +16,6 @@
             <div id='icon4' class="icon">
                 <img src="{{asset('images/trivago.png')}}" alt="">
             </div>
-            <div id='icon5' class="icon">
-                <img src="{{asset('images/ford.png')}}" alt="">
-            </div>
             <div id='icon6' class="icon">
                 <img src="{{asset('images/leapfrog.png')}}" alt="">
             </div>

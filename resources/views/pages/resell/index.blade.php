@@ -20,13 +20,11 @@
             <div class='nav-items'>
 
 
-                <a class='text-primary text-small nav-item' href="{{route('home')}}">Home</a>
-                <a href='http://web.leadengine.live/faq' class='text-primary text-small   nav-item' >FAQ</a>
-                <a onclick='showPricingPage()' class='text-primary text-small nav-item'>Pricing</a>
+                <a class='text-primary text-small nav-item' href="{{route('home')}}">Home</a>                <a onclick='showPricingPage()' class='text-primary text-small nav-item'>Pricing</a>
                 <a onclick='showCaseStudyPage()' class='text-primary text-small nav-item'>Case Study</a>
                 <a href='{{route('signup.index')}}' class='text-primary text-small nav-item'>Sign Up</a>
                 <a href='{{route('resell')}}' class='text-primary text-small nav-item'>Resell</a>
-                <a style='border: 2px solid #aaa; font-size:.8em; padding:10px 0' href='https://calendly.com/leadengine-support/15min' class='text-primary text-small   nav-item' >Free Consultation</a>
+                <a href='https://calendly.com/leadengine-support/15min' class='free_consultation text-primary text-small   nav-item' >Free Consultation</a>
 
             </div>
             <button class="hamburger btn btn-transparent"><i class="fas fa-bars"></i></button>

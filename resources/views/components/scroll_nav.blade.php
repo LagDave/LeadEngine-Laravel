@@ -13,8 +13,6 @@
 
 
             <a class='text-primary text-normal nav-item' href="{{route('home')}}">Home</a>
-            <a href='http://web.leadengine.live/faq'
-               class='text-primary text-normal nav-item'>FAQ</a>
             <a onclick='showPricingPage()' class='text-primary text-normal nav-item'>Pricing</a>
             <a onclick='showCaseStudyPage()' class='text-primary text-normal nav-item'>Case Study</a>
             <a class='text-primary text-normal nav-item' href="{{route('resell')}}">Resell</a>

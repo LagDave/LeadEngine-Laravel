@@ -29,7 +29,7 @@
                 <div class="benefit-card">
                     <p class="text-primary text-purple"><i class="text-bigmed  far fa-thumbs-up"></i></p>
                     <p class="text-primary text-center  text-mednorm text-grey">Proven Success</p>
-                    <p class="text-primary text-center  text-dbl-line-height">2,000+ customers and climbing</p>
+                    <p class="text-primary text-center  text-dbl-line-height">200+ customers and climbing</p>
                 </div>
                 <div class="benefit-card">
                     <p class="text-primary text-purple"><i class="text-bigmed  fas fa-rocket"></i></p>

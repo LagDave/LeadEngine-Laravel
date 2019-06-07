@@ -41,7 +41,7 @@ hr{
 
 /* TEXT */
 .text-dbl-line-height {
-  line-height: 35px;
+  line-height: 2em;
 }
 .text-big {
   font-size: 4em;
@@ -93,6 +93,11 @@ hr{
 }
 .text-purple{
   color:#6a1b9a;
+}
+.text-purple-fancy{
+  background: -webkit-linear-gradient(45deg, purple, darkblue);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .text-primary {
