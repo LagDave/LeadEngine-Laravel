@@ -21,7 +21,7 @@
         </p>
         <br>
         <div class="pricing">
-                <p class="text-purple text-bold text-mednorm text-center text-primary">PRICING</p>
+                <p class="text-grey text-bold text-medium text-center text-primary">PRICING</p>
             <div class="price-and-calculator-container">
                 
                 <div class="price-text-container">
@@ -55,16 +55,23 @@
             
             <br>
             <br>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">100/day connection request or  3,000/month connection request per campaign</p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">500 to 700 contact details of new connections compiled in a CSV file
-                </p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">Custom auto-messaging to new connections (Optional)</p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">Dedicated account manager</p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">24/7 technical support</p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">Inbox cleaner</p>
+            
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary"> 100/day connection request or  3,000/month connection request per campaign</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">500 to 700 contact details of new connections compiled in a CSV file</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">Custom auto-messaging to new connections (Optional)</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">Dedicated account manager</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">24/7 technical support</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">Inbox cleaner</span></p>
 
             <br>
-            <button class="btn btn-wide btn-blue">Free Consultation</button>
+            <p class="text-center">
+                <button class="btn btn-blue">Free Consultation</button>
+            </p>
 
 
         </div>
@@ -72,39 +79,6 @@
     </div>
 
     <br><br><br>
-
-    <!-- Testimonials    -->
-
-    <div class="testimonials">
-
-        <div class="container">
-
-
-            <div class="testimonial">
-                <p class="text-primary text-mednorm"><i class="text-purple fas fa-quote-right"></i></p>
-
-                <p class="text-primary testimonial-content text-grey text-normal text-center ">
-                    For many years we have tried several ideas and systems in order to create an easy and cost
-                    effective way to find high quality leads. With Lead Engine, we were able to work with the leads
-                    that are actually interested in our services.
-                </p>
-                <p style='margin-bottom:5px' class="mt-auto text-primary text-bold text-normal">Tom Corvo, <span
-                            class='text-purple'>CEO</span></p>
-                <p class="text-primary margin-0 text-nano ">Magenic software company</p>
-                <div style='margin-top:5px' class="stars-container">
-
-                    <i class="fas text-purple fa-star"></i>
-                    <i class="fas text-purple fa-star"></i>
-                    <i class="fas text-purple fa-star"></i>
-                    <i class="fas text-purple fa-star"></i>
-                    <i class="fas text-purple fa-star"></i>
-
-                </div>
-            </div>
-
-        </div>
-
-    </div>
     <br>
     <br>
 

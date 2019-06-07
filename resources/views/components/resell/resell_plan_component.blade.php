@@ -37,13 +37,17 @@
                 
             </div>
             <br><br>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">100/day connection request or  3,000/month connection request per campaign</p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">500 to 700 contact details of new connections compiled in a CSV file
-                </p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">Custom auto-messaging to new connections (Optional)</p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">Dedicated account manager</p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">24/7 technical support</p>
-            <p class="text-mednorm text-purple-fancy text-bold text-center text-primary">Inbox cleaner</p>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary"> 100/day connection request or  3,000/month connection request per campaign</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">500 to 700 contact details of new connections compiled in a CSV file</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">Custom auto-messaging to new connections (Optional)</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">Dedicated account manager</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">24/7 technical support</span></p>
+            <br>
+            <p class='text-dbl-line-height text-mednorm' style='max-width:600px; margin:0 auto'><span class="text-green"><i class="fas fa-check-square"></i></span> <span class="text-grey text-bold text-primary">Inbox cleaner</span></p>
         </div>
 
         

@@ -4,21 +4,26 @@
 @include('components.scroll_nav')
 {{-- Jumbotron --}}
 @include('components.jumbotron')
-
+{{-- Kizer Image Component --}}
+@include('components.kizer_image')
 {{-- What is Leadengine Compoennt --}}
 @include('components.what_is_leadengine')
 {{-- What makes LeadEngine effective --}}
 @include('components.what_makes_leadengine_effective')
-{{-- Kizer Image Component --}}
-@include('components.kizer_image')
+{{-- Sell our service strip --}}
+@include('components.sell_our_service_strip')
+
 {{-- How LeadEngine Works --}}
-@include('components.how_leadengine_works')
+{{-- @include('components.how_leadengine_works') --}}
+
 {{-- Benefits --}}
 @include('components.benefits')
 {{-- Testimonials --}}
 @include('components.testimonials')
+
 {{-- Companies Iconset --}}
-@include('components.companies_iconset')
+{{-- @include('components.companies_iconset') --}}
+
 {{-- Free Consultation --}}
 @include('components.free_consultation')
 {{-- Footer --}}

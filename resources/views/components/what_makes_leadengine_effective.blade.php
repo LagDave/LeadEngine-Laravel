@@ -1,9 +1,9 @@
 <div class="what-makes-leadengine-effective">
     <div class="container">
-        <p class="text-medium text-bold text-primary text-center">What makes LeadEngine effective?</p>
-        <p class="text-normal text-dbl-line-height text-center text-primary">You've got targets;<br>We help you make a direct hit.</p>
+        <p class="text-medium text-bold text-primary text-center">How LeadEngine works</p>
+        <p class="text-grey text-mednorm text-center text-primary">You've got targets;<br>We help you make a direct hit.</p>
 
-        <br><br>
+        <br><br><br>
         <div class="grid">
             <div>
                 <p class="text-big text-center" style='color:purple; margin:0'><i class="fas fa-handshake"></i></p>
