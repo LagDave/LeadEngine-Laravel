@@ -4,6 +4,7 @@
 {{-- Scripts --}}
 <script src="{{asset('js/scripts.js')}}"></script>
 <script src='{{asset('js/components_summoner.js')}}'></script>
+<script type="text/javascript" src="{{asset('slick/slick.min.js')}}"></script>
 
 
 {{-- Google Analytics Script --}}

@@ -20,12 +20,12 @@
             <div class='nav-items'>
 
 
-                <a class='text-primary text-small nav-item' href="{{route('home')}}">Home</a>                <a onclick='showPricingPage()' class='text-primary text-small nav-item'>Pricing</a>
-                <a onclick='showCaseStudyPage()' class='text-primary text-small nav-item'>Case Study</a>
-                <a href='{{route('resell')}}' class='text-primary text-small nav-item'>Resell</a>
-                <a href='{{route('signup.index')}}' class='text-primary text-small nav-item'>Sign Up</a>
-                <a href='https://calendly.com/leadengine-support/15min' class='free_consultation text-primary text-small   nav-item' >Free Consultation</a>
-
+                    <a class='text-primary text-small nav-item' href="">Home</a>
+                    <a onclick='showPricingPage()' class='text-primary text-small nav-item'>Pricing</a>
+                    <a onclick='showCaseStudyPage()' class='text-primary text-small nav-item'>Case Study</a>
+                    <a href='{{route('resell')}}' class='text-primary text-small nav-item'>Resell</a>
+                    <a href='{{route('signup.index')}}' class='text-primary text-small nav-item'>Sign Up</a>
+                    <a style='font-size:.8em; color:black !important' href='https://calendly.com/leadengine-support/15min' class='btn btn-white nav-item' >Free Consultation</a>
             </div>
             <button class="hamburger btn btn-transparent"><i class="fas fa-bars"></i></button>
 
@@ -49,7 +49,7 @@
 <div class='resell-component2'>
     <div class="container">
         <p class="text-medium text-center text-primary"><b>Rebrand. Resell</b></p>
-        <p style='max-width:700px; margin:0 auto' class="text-dbl-line-height text-normal text-primary text-grey">LeadEngine provides a quality lead generation service and it’s also the lowest price lead gen service compared to others that charge $200 to $700 per month. Our quality service will stay at $79/month. Here are some things to think about:</p>
+        <p style='max-width:700px; margin:0 auto' class="text-dbl-line-height text-normal text-primary text-grey">LeadEngine provides a quality lead generation service and it’s also the lowest price lead gen service compared to others that charge $300 to $700 per month. Our quality service will stay at $165/month. Here are some things to think about:</p>
 
         <br><br>
         <div class="resell-component2-things">

@@ -7,7 +7,7 @@
 <link rel="stylesheet" href="{{asset('css/form.css')}}">
 
 <br><br><br><br><br>
-<p class="text-center text-mednorm text-primary">Steps on White labeling Lead Engine</p>
+<p class="text-center text-mednorm text-primary">Steps on white labeling LeadEngine</p>
 <br>
 <div class="progress-container">
     <ul class="progressbar">

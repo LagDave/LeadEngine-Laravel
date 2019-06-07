@@ -32,10 +32,14 @@
 }
 .scroll-nav .container .nav-items .nav-item {
   text-align: center;
-  color: #888;
+  transition: .2s;
+  color: #555;
+  font-weight: bold;
 }
 .scroll-nav .container .nav-items .nav-item:hover {
-  color: purple;
+  padding-bottom: 15px;
+  border-bottom: 1px solid purple;
+  color:purple !important;
 }
 .scroll-nav .container .contacts {
   display: grid;
@@ -64,7 +68,7 @@
 }
 .jumbotron nav .nav-items {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1.5fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
   align-items: center;
 
 }
@@ -149,6 +153,11 @@
   align-items: center;
   justify-content: center;
 }
+
+.jumbo-main-container .left-hand .btn-and-stars{
+  margin-top: 60px;
+}
+
 .jumbo-main-container .jb-divider div{
   background:white;
   width: 1.5px;

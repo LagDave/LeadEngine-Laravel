@@ -1,16 +1,9 @@
 .testimonials{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column
+    background: #dfdfdf46;;
+    padding: 20px 0;
 }
 .testimonials .title{
     margin-bottom: 100px
-}
-.testimonials .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
 }
 .testimonials .container .testimonial{
     display: flex;

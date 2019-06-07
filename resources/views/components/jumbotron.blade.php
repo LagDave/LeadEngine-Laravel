@@ -17,7 +17,7 @@
                 <a onclick='showCaseStudyPage()' class='text-primary text-small nav-item'>Case Study</a>
                 <a href='{{route('resell')}}' class='text-primary text-small nav-item'>Resell</a>
                 <a href='{{route('signup.index')}}' class='text-primary text-small nav-item'>Sign Up</a>
-                <a href='https://calendly.com/leadengine-support/15min' class='text-primary text-small  free_consultation nav-item' >Free Consultation</a>
+                <a style='font-size:.8em; color:black !important' href='https://calendly.com/leadengine-support/15min' class='btn btn-white nav-item' >Free Consultation</a>
 
             </div>
             <button class="hamburger btn btn-transparent"><i class="fas fa-bars"></i></button>
