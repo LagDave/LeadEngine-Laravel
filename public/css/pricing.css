@@ -43,32 +43,51 @@
 }
 
  .pricing{
-  background:white;
   padding:20px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
   border-radius: 10px;
   width:100%;
   max-width: 1000px;
   margin:0 auto;
   box-sizing: border-box;
 }
- .pricing .price-and-calculator-container{
-  transition: .2s;
-  border-top: 5px solid purple;
-  background:white;
-  width:80%;
-  max-width: 600px;
-  margin:0 auto;
-  padding:30px;
-  box-sizing: border-box;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
-  border-radius: 10px;
+
+.pricing .pricing-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
 }
 
+ .pricing .price-and-calculator-container{
+  transition: .2s;
+  background:white;
+  width:100%;
+  max-width: 600px;
+  padding:0px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.10), 0 10px 10px rgba(0,0,0,0.10);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing td, .pricing th{
+  border:none;
+}
+.pricing tr:nth-child(even){
+  background:#eee;
+}
+
+.pricing .price-text-container{
+  grid-template-columns: 1fr;
+  margin-top:auto;
+}
  .pricing .pricing-select{
   display: flex;
   align-items: center;
   justify-content: center;
+  width:90%;
+  margin:0 auto;
 }
  .pricing .pricing-select select{
   font-size: 1em;
@@ -83,8 +102,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  width:80%;
-  max-width:200px;
+  width:100%;
 }
  .pricing .pricing-select select option{
   color:black;
@@ -114,15 +132,6 @@ table tr td{
 .header button:hover {
   transform: scale(1.1, 1.1);
 }
-.price-text-container{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.price-text-container .pricing-perks{
-  border-left: .5px solid #ccc;
-  padding-left: 20px;
-} 
-
 
 
 .pricing_component .testimonials .container{
@@ -136,11 +145,6 @@ table tr td{
   .pricing_component .price-text-container{
     grid-template-columns: 1fr;
   }
-  .pricing_component .price-text-container .pricing-perks{
-    border-left:none;
-    padding-left: 0px;
-    border-top: 0.5px solid #ccc;
-  } 
 }
 
 
