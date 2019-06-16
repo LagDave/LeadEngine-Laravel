@@ -77,6 +77,10 @@
 .pricing tr:nth-child(even){
   background:#eee;
 }
+.pricing td p{
+  max-width:300px;
+  margin:0 auto;
+}
 
 .pricing .price-text-container{
   grid-template-columns: 1fr;
@@ -144,6 +148,15 @@ table tr td{
 @media(max-width:760px){
   .pricing_component .price-text-container{
     grid-template-columns: 1fr;
+  }
+
+}
+@media(max-width:1000px){
+  .pricing .pricing-wrapper{
+    grid-template-columns: 1fr;
+  }
+  .pricing .price-and-calculator-container{
+    max-width: 100%;
   }
 }
 

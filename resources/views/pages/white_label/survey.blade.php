@@ -38,7 +38,7 @@
         <br>
         <p class="text-center text-mednorm text-primary"><b>ON-BOARDING SURVEY</b></p>
         <p style='margin-top:40px;' class="text-center">
-            <a onclick='redirectToSuccess()' target="_blank"  href="{{asset('downloads/onboarding_survey.docx')}}" class="btn btn-blue">DOWNLOAD</a>
+            <a onclick='redirectToSuccess()' target="_blank"  href="{{asset('downloads/onboarding_survey.odt')}}" class="btn btn-blue">DOWNLOAD</a>
         </p>
     </div>
 </div>

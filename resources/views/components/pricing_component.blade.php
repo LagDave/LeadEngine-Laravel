@@ -25,32 +25,32 @@
             
             <div class="pricing-wrapper">
                 <div class="price-and-calculator-container">
-                    <p style='background:linear-gradient(45deg, purple 50%, darkblue );; margin:0; border-radius:5px 5px 0 0; padding:30px 0;' class="text-white pricing-title text-mednorm text-primary text-center">STANDARD</p>
+                    <p style='background:#48CFAF; margin:0; border-radius:5px 5px 0 0; padding:10px 0;' class="text-white pricing-title text-mednorm text-primary text-center">STANDARD</p>
 
                     <div class="pricing-stats-table">
-                        <table style='margin-top:30px;'>
+                        <table style='width:100%; margin-top:10px;'>
                             <tr>
-                                <td class='text-center text-primary text-grey'>100/day connection request or a total of 3,000/month</td>
+                                <td class='text-primary text-small text-center text-grey'><p>100/day connection request or<br>a total of 3,000/month</p></td>
                             </tr>
                             
                             <tr>
-                                <td class='text-center text-primary text-grey'>500 to 700 contact details of new connections compiled in a CSV file  </td>
+                                <td class='text-primary text-small text-center text-grey'><p>500 to 700 contact details of new<br>connections compiled in a CSV file  </p></td>
                             </tr>
                             
                             <tr>
-                                <td class='text-center text-primary text-grey'>Custom auto-messaging to new Connections (OPTIONAL)</td>
+                                <td class='text-primary text-small text-center text-grey'><p>Custom auto-messaging to new<br>connections (OPTIONAL)</p></td>
                             </tr>
                         
                             <tr>
-                                <td class='text-center text-primary text-grey'>Dedicated account manager</td>
+                                <td class='text-primary text-small text-center text-grey'><p>Dedicated account manager</p></td>
                             </tr>
                         
                             <tr>
-                                <td class='text-center text-primary text-grey'>24/7 technical support</td>
+                                <td class='text-primary text-small text-center text-grey'><p>24/7 technical support</p></td>
                             </tr>
                         
                             <tr>
-                                <td class='text-center text-primary text-grey'>Inbox cleaner</td>
+                                <td class='text-primary text-small text-center text-grey'><p>Inbox cleaner</p></td>
                             </tr>
                         </table>
                         
@@ -79,12 +79,12 @@
                 </div>
 
                 <div class="price-and-calculator-container">
-                    <p style='background:linear-gradient(45deg, purple 50%, darkblue );; margin:0; border-radius:5px 5px 0 0; padding:30px 0;' class="text-white pricing-title text-mednorm text-primary text-center">PREMIUM</p>
+                    <p style='background:#EF5563; margin:0; border-radius:5px 5px 0 0; padding:10px 0;' class="text-white pricing-title text-mednorm text-primary text-center">PREMIUM</p>
 
                     <div class="pricing-stats-table">
-                        <table  style='margin-top:30px;width:100%;'>
+                        <table  style='margin-top:10px;width:100%;'>
                             <tr>
-                                <td class='text-center text-primary text-grey'>All Features of Standard Plan</td>
+                                <td class='text-center text-primary text-grey text-small'>All Features of Standard Plan</td>
                             </tr>
                             
                             <tr>
@@ -92,15 +92,15 @@
                             </tr>
                             
                             <tr>
-                                <td class='text-center text-primary text-grey'>Email Marketing Campaign</td>
+                                <td class='text-center text-primary text-grey text-small'>Email Marketing Campaign</td>
                             </tr>
                         
                             <tr>
-                                <td class='text-center text-primary text-grey'>Follow up automation</td>
+                                <td class='text-center text-primary text-grey text-small'>Follow up automation</td>
                             </tr>
                         
                             <tr>
-                                <td class='text-center text-primary text-grey'>Custom Email Template</td>
+                                <td class='text-center text-primary text-grey text-small'>Custom Email Template</td>
                             </tr>
                         </table>
                         
