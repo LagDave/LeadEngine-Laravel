@@ -10,10 +10,9 @@
 <br><br><br><br><br><br>
 <div class="progress-container">
     <ul class="progressbar">
-      <li class="text-primary text-grey active">Sign up</li>
-      <li class='text-primary text-grey active'>Payment Process</li>
-      <li class='text-primary text-grey active'>Survey</li>
-      <li class='text-primary text-grey active'>Success</li>
+      <li class="signup text-primary text-grey active">Sign up</li>
+      <li class='signup text-primary text-grey active'>Payment Process</li>
+      <li class='signup text-primary text-grey active'>Success</li>
     </ul>
   </div>
 </div>
@@ -36,17 +35,18 @@
             <b>Reminders:</b> 
         </p>
 
-        <p style='max-width:900px; margin:0 auto' class='text-grey text-dbl-line-height text-primary text-small'>
+        <p style='max-width:800px; margin:0 auto' class='text-grey text-dbl-line-height text-primary text-small'>
             <b>1. Your LinkedIn Username & Password</b>
             <br>
             Our automated system runs inside your LinkedIn account. To start the campaign, we must be able to get inside your account.
             Your credentials are secured and will not be shared with anyone. You will receive an email from our support team requesting for your username & password in your account.
         </p>
         <br>
-        <p  style='max-width:900px; margin:0 auto' class='text-grey text-dbl-line-height text-primary text-small'>
-            <b>2. Have your Sales Navigator Premium Service ready</b>
+        
+        <p  style='max-width:800px; margin:0 auto' class='text-grey text-dbl-line-height text-primary text-small'>
+            <b>2. PREMIUM Plan</b>
             <br>
-            Your account must have this premium service in your LinkedIn account for the campaign to start. You can find that on the upper right part of your profile page in LinkedIn. It’s free for a month then becomes $79/month after. You can <a style='color:dodgerblue' href="https://business.linkedin.com/sales-solutions/compare-plans#1">CLICK HERE</a> to sign up for your Sales Navigator
+            If you subscribed to the premium plan for email marketing automation, we would need a gmail account from you, existing or new.
         </p>
         </ol>
     </div>

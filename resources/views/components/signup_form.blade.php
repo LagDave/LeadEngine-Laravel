@@ -1,72 +1,68 @@
 
-
-<div class="progress-container">
-    <ul class="progressbar">
-        <li class="text-primary text-grey active">Sign up</li>
-        <li class='text-primary text-grey active'>Payment Process</li>
-        <li class='text-primary text-grey active'>Survey</li>
-        <li class='text-primary text-grey '>Success</li>
-    </ul>
-</div>
-
-
-
+<p style='margin:0 auto; max-width:500px'>
+    <img style='width:100%;' src="http://web.leadengine.live/images/wide_logo.png" alt="">
+</p>
 <div style='clear:both; padding-top:50px;' class="container">
     <div class="form-container">
         <form onsubmit="showLoader()"  method='POST' action="{{route('signup.validateForm')}}" class="form">
             @csrf
-            <p class="text-medium ">Complete Questionnaire</p>
-
-            <br>
-
             {{--  --}}
             <div class="field">
                 <label class='label'>Full Name</label>
                 <input value="{{request()->session()->get('full_name') ?? old('name')}}" id='first_name' name='name' type="text" class="input" required>
             </div>
-            <div class="columns">
-                <div class="field column">
-                    <label class='label'>Email Address</label>
-                    <input value="{{request()->session()->get('email') ?? old('email')}}" id='email' name='email' type="email" class="input" required>
-                </div>
-                <div class="field column">
-                    <label class='label'>Mobile Number</label>
-                    <input value="{{old('number')}}" id='number' name='number' type="number" class="input" required>
-                </div>
-            </div>
-            <div class="columns">
-                <div class="field column">
-                    <label class='label'>Company Name</label>
-                    <input value="{{old('company_name')}}" id='company_name' name='company_name' type="text" class="input" required>
-                </div>
-
-                {{--  --}}
-                <div class="field column">
-                    <label for="" class="label">Company Website URL</label>
-                    <input value="{{old('website_url')}}" type="text" name='website_url' class="input">
-                </div>
-            </div>
-
-            {{--  --}}
             <div class="field">
-                <label for="" class="label">Full name of the LinkedIn account where the system will run</label>
-                <input value="{{old('linkedin_account')}}" type="text" name='linkedin_account' class="input">
+                <label class='label'>Email Address</label>
+                <input value="{{request()->session()->get('email') ?? old('email')}}" id='email' name='email' type="email" class="input" required>
             </div>
-
-            <!-- Onboarding Survey -->
-
             <div class="field">
-                <label class='label'>Rank the top 3 Locations you're targeting</label>
-                <textarea placeholder='Example: 1. Utah, 2. Florida, 3. Houston' name="top_3_locations" rows="5" class="textarea">{{old('top_3_locations')}}</textarea>
+                <label class='label'>Auto messaging template for new connections (OPTIONAL):</label>
+                <p class='text-small text-grey text-primary'>
+                        (We can personalize your message by addressing the receiver by their first name, and the name of their company)<br><br>
+                        Ex.<br>
+                        
+                        Hi {Receiver}<br>
+                        
+                        I hope everything is doing well with {name of their company}. I am in the business of (your message content…)<br><br>
+                        
+                        *You can include your website link (OPTIONAL)<br>
+                        -<br>
+                        
+                        *You can include your calendar link (OPTIONAL)<br>
+                        -
+                            
+                </p>
+                <label style='color:red' class="label">Compose your message</label>
+                <textarea name="messaging_template" id="" rows="10" class='textarea'></textarea>
             </div>
-
-
+            <div class="field">
+                <label class='label'>Auto messaging template for new connections (OPTIONAL):</label>
+                <p class='text-small text-grey text-primary'>
+                        (We can personalize your email by addressing the receiver by their first name, and the name of their company)<br><br>
+                        Ex.<br>
+                        
+                        Hi {Name}<br>
+                        
+                        I hope everything is doing well with {name of their company}. I am in the business of (your message content…)<br><br>
+                        
+                        *You can include your website link (OPTIONAL)<br>
+                        -<br>
+                        
+                        *You can include your calendar link (OPTIONAL)<br>
+                        -
+                            
+                </p>
+                <label style='color:red' class="label">Compose your message</label>
+                <textarea name="email_template" id="" rows="10" class='textarea'></textarea>
+            </div>
+            <div class="field">
+                <label class="label">Identify your target audience</label>
+                <textarea placeholder='Ex. Realtors, Business owners of ______, Loan officers, Doctors, Software agency owners, Attorneys, Insurance agents, etc' name="target_audience" rows='5' class="textarea"></textarea>
+            </div>
             <div class="field">
                 <label class="label">Target Industries (Choose as many as you like)</label>
                 <button type='button' onclick='showIndustriesModal()' class="btn btn-blue">Click Here to Choose</button>
             </div>
-
-
             <div class="field">
                 <div style='z-index:999999999999999' id='industries_modal' class="modal">
                     <div class="modal-background"></div>
@@ -104,116 +100,58 @@
                     </div>
                 </div>
             </div>
-
             <div class="field">
-                <label for="" class="label">Of your chosen industries, Rank the Top 3</label>
-                <input type="text" name='top_3_industries' class="input">
-            </div>
-            
-            <div class="field">
-                <label for="" class="label">What exactly do you do in one sentence?</label>
-                <textarea placeholder="(Ex. Lead Engine sends thousands of personalized LinkedIn messages for only $79 a month.)" name="what_exactly_customers_do" id="" rows="5" class="textarea"></textarea>
+                <label class='label'>Rank the top 3 Locations you're targeting</label>
+                <textarea placeholder='Example: 1. Utah, 2. Florida, 3. Houston' name="top_3_locations" rows="5" class="textarea">{{old('top_3_locations')}}</textarea>
             </div>
 
-            <div class="field">
-                <label for="" class="label">Describe your ideal prospect</label>
-                <input type="text" name='ideal_prospect' class="input">
-            </div>
+            <p class="text-mednorm text-primary">Login Details for <ins class='text-bold'>LinkedIn</ins></p>
+            <br>
 
             <div class="field">
-                <label for="" class="label">What is the biggest problem/pain point your company is solving for your clients?</label>
-                <input type="text" name='biggest_problem' class="input">
+                <label for="" class="label">Username</label>
+                <input required type="text" name='linkedin_username' class="input">
             </div>
-
             <div class="field">
-                <label for="" class="label">What are the consequences of potential clients not solving that pain?</label>
-                <input type="text" name='consequences' class="input">
+                <label for="" class="label">Password</label>
+                <input required type="text" name='linkedin_password' class="input">
             </div>
-
             <div class="field">
-                <label for="" class="label">Are you solving your clients' problem uniquely? If yes, how?</label>
-                <input type="text" name='solving_problems' class="input">
-            </div>
-
-            <div class="field">
-                <label class='label'>What differentiates you from competitors? Why would someone switch or choose you?</label>
-                <input type="text" name='differentiates_competitors' class="input">
-            </div>
-
-            <div class="field">
-                <label for="" class="label">Do you have any relevant links that would provide value to your prospects? If yes, please paste the link here.</label>
-                <textarea placeholder='We always try to add as much value as we can to our messaging in order to generate a high response rate. Example: The Essential LinkedIn B2B Marketing Guide for 2019.' name="relevant_links" id="" rows="5" class="textarea"></textarea>
-            </div>
-
-            <div class="field">
-                <label for="" class="label">Can you provide us with an example of your most successful cold outreach message(s)?</label>
-                <textarea placeholder='(Just for reference, we will re-write based off our best practices)' name="successful_message" rows="5" class="textarea"></textarea>
-            </div>
-
-            <div class="field">
-                <label for="" class="label">Do you have social proof (credibility) for us to incorporate in your outreach message? If yes, please provide it below and include any notable companies you've worked with.</label>
-                <input type="text" name='social_proof' class="input">
-            </div>
-
-            <div class="field">
-                <label for="" class="label">Do you have an irresistible offer you use to attract potential customers? If yes, what is it?</label>
-                <textarea name="irresistible_offer"rows="5" class="textarea"></textarea>
-            </div>
-
-            <div class="field">
-                <label for="" class="label">What is your preferred call to action?</label>
+                <label for="" class="label">How old is your LinkedIn Account?</label>
                 <div class="select">
-                    <select name="call_to_action">
-                        <option value="schedule_a_call">Schedule a call</option>
-                        <option value="schedule_a_demo">Schedule a demo</option>
-                        <option value="direct_to_website">Direct them to your website</option>
-                        <option value="request_phone_number">Request phone number</option>
-                        <option value="just_building_rapport">Just building rapport</option>
+                    <select required name="linkedin_account_age" class="select">
+                        <option value="less_than_one_year">Less than 1 year</option>
+                        <option value="one_to_three_years">1 to 3 years</option>
+                        <option value="above_three_years">Above 3 years</option>
                     </select>
                 </div>
             </div>
 
-            <div class="field">
-                <label for="" class="label">Do you have a calendar link for prospects to book calls directly with you? If yes, please paste the link below before your onboarding call. If no, you don't need one.</label>
-                <input type="text"name='calendar_link' placeholder="https://calendly.com/" class="input">
-            </div>
+
+            <p class="text-mednorm text-primary">Gmail <ins class='text-bold'>for PREMIUM users</ins></p>
+            <br>
 
             <div class="field">
-                <label for="" class="label">How did you hear about us?</label>
-                <div class="select">
-                    <select name="how_did_client_hear_about_us">
-                        <option value="google_ad">Google Ad</option>
-                        <option value="referral">Referral</option>
-                        <option value="linkedin">LinkedIn Cold Outreach</option>
-                        <option value="facebook_ad">Facebook Ad</option>
-                        <option value="linkedin_ad">LinkedIn Ad</option>
-                    </select>
-                </div>
+                <label for="" class="label">Username</label>
+                <input type="text" name='gmail_username' class="input">
+            </div>
+            <div class="field">
+                <label for="" class="label">Password</label>
+                <input type="text" name='gmail_password' class="input">
             </div>
 
             <br>
-            <button class="btn btn-blue btn-wide">SIGNUP</button>
-
-            <div class="images-container">
-
-                <img src="https://myprospectengine.com/images/seal.secure.png" alt="">
-                <img src="https://myprospectengine.com/images/PayPal_logo.svg_.png" alt="">
-                <img src="https://myprospectengine.com/images/credit-cards.png" alt="">
-
-            </div>
+            <button class="btn btn-blue btn-wide">SUBMIT</button>
         </form>
-
-        <div class='text-container'>
-
-            <img src="{{asset('images/wide_logo.png')}}">
-            <br><br>
-            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> No Setup Fees</p>
-            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> No Cancellation Fees</p>
-            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> Cancel Any Time</p>
-            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> Secure Paypal Checkout</p>
-            <p style='margin:10px 0' class=" text-mednorm text-grey"><i class="fas fa-check-circle text-green"></i> 30-Day Money-Back Guarantee</p>
-
-
-        </div>
     </div>
+    <br><br>
+    <p style='max-width:700px;margin:0 auto' class="text-small text-primary text-center">
+
+            <span style='color:red; font-weight:bold'>Note: Servers or computers don’t run 24/7 straight.</span> We may need to reach out to you from time to time to ask for the verification code to access your LinkedIn account. We might have to log out of your account on our end for a 10 min. MAINTENANCE. When we re-login, LinkedIn will probably ask for a verification code because your account is being accessed in a different location aside from your computer or mobile. A verification code will be sent on your email address from LinkedIn.
+    
+    
+            Feel free to reach us at support@leadengine.live for any concerns.
+            
+    </p>
 </div>
+

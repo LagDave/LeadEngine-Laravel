@@ -12,10 +12,9 @@
 <br><br><br><br><br>
 <div class="progress-container">
     <ul class="progressbar">
-      <li class="text-primary text-grey active">Sign up</li>
-      <li class='text-primary text-grey '>Payment Process</li>
-      <li class='text-primary text-grey '>Survey</li>
-      <li class='text-primary text-grey '>Success</li>
+      <li class="signup text-primary text-grey active">Sign up</li>
+      <li class='signup text-primary text-grey '>Payment Process</li>
+      <li class='signup text-primary text-grey '>Success</li>
     </ul>
   </div>
 </div>

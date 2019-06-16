@@ -33,7 +33,6 @@ class SignupController extends Controller
     public function validateForm(Request $request){
         session([
             'data'=>$request->all()
-            
         ]);
         
         return redirect(route('signup.sendMail'));
@@ -42,13 +41,10 @@ class SignupController extends Controller
     public function sendMail(Request $request){
 
         $session_data = $request->session()->get('data');
-        unset($session_data['_token']);
         $to_name = 'Daniel Bautista';
         $to_email = 'rdavephp@gmail.com'; // LE.kevin.sutton@gmail.com
         $data = [
-            'data'=>$session_data,
-            'full_name'=>$request->session()->get('full_name'),
-            'email'=>$request->session()->get('email')
+            'data'=>$session_data
         ];
 
         Mail::send('emails.mail', $data, function($message) use ($to_name, $to_email) {

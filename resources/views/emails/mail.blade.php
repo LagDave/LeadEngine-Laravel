@@ -12,16 +12,42 @@
     <h3>A new client has signed up</h3>
     <hr>
     <pre>
-
         <p>Basic Information</p>
-        <h1>Full Name: <b>{{$full_name}}</b></h4>
-        <h1>Email: <b>{{$email}}</b></h1>
+        <h4>Full Name: <b><?php echo $data['name']?></b></h4>
+        <h4>Email: <b><?php echo $data['email']?></b></h4>
 
         <hr>
         <p>More Information</p>
-        <?php print_r($data) ?>
-    </pre>
+        <p><b>Auto Messaging Template:</b></p>
+        <br>
+        <pre><?php echo $data['messaging_template']?></pre>
+        <hr>
+        <p><b>Email Template for Premium Users</b></p>
+        <br>
+        <pre><?php echo $data['email_template']?></pre>
+        <hr>
 
+        <p><b>Target Audience/s</b></p>
+        <br>
+        <pre><?php echo $data['target_audience']?></pre>
 
+        <hr>
+
+        <p><b>Target Industry/ies</b></p>
+        <br>
+        <ol>
+            <?php foreach($data['industries_list'] as $industry):?>
+                <li><p> <?php echo $industry ?> </p></li>
+            <?php endforeach ?>
+        </ol>
+
+        <hr>
+        <h4>Login Details</h4>
+        <p>Linkedin Username: <b><?php echo $data['linkedin_username']?></b></p>
+        <p>Linkedin Password: <b><?php echo $data['linkedin_password']?></b></p>
+        <p>Gmail Username: <b><?php echo $data['gmail_username']?></b></p>
+        <p>Linkedin Password: <b><?php echo $data['gmail_password']?></b></p>
+
+        <hr>
 </body>
 </html>
