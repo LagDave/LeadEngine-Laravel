@@ -36,9 +36,13 @@
         <p><b>Target Industry/ies</b></p>
         <br>
         <ol>
-            <?php foreach($data['industries_list'] as $industry):?>
-                <li><p> <?php echo $industry ?> </p></li>
-            <?php endforeach ?>
+            <?php if(isset($data['industries_list'])):?>
+                <?php if(sizeof($data['industries_list']) >0 ): ?>
+                    <?php foreach($data['industries_list'] as $industry):?>
+                        <li><p> <?php echo $industry ?> </p></li>
+                    <?php endforeach ?>
+                <?php endif; ?>
+            <?php endif;?>
         </ol>
 
         <hr>

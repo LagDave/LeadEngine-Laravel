@@ -24,16 +24,20 @@
                         Hi {Receiver}<br>
                         
                         I hope everything is doing well with {name of their company}. I am in the business of (your message content…)<br><br>
-                        
-                        *You can include your website link (OPTIONAL)<br>
-                        -<br>
-                        
-                        *You can include your calendar link (OPTIONAL)<br>
-                        -
                             
                 </p>
                 <label style='color:red' class="label">Compose your message</label>
-                <textarea name="messaging_template" id="" rows="10" class='textarea'></textarea>
+                <textarea name="messaging_template" id="" rows="10" class='textarea'>
+{Message Here}
+
+---------------
+
+*You can include your website link (OPTIONAL)
+-
+                
+*You can include your calendar link (OPTIONAL)
+-
+                </textarea>
             </div>
             <div class="field">
                 <label class='label'>Auto messaging template for new connections (OPTIONAL):</label>
@@ -44,16 +48,20 @@
                         Hi {Name}<br>
                         
                         I hope everything is doing well with {name of their company}. I am in the business of (your message content…)<br><br>
-                        
-                        *You can include your website link (OPTIONAL)<br>
-                        -<br>
-                        
-                        *You can include your calendar link (OPTIONAL)<br>
-                        -
                             
                 </p>
                 <label style='color:red' class="label">Compose your message</label>
-                <textarea name="email_template" id="" rows="10" class='textarea'></textarea>
+                <textarea name="email_template" id="" rows="10" class='textarea'>
+{Message Here}
+
+---------------
+
+*You can include your website link (OPTIONAL)
+-
+                                        
+*You can include your calendar link (OPTIONAL)
+-
+                </textarea>
             </div>
             <div class="field">
                 <label class="label">Identify your target audience</label>

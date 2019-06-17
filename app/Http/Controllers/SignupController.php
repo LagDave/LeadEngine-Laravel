@@ -42,7 +42,7 @@ class SignupController extends Controller
 
         $session_data = $request->session()->get('data');
         $to_name = 'Daniel Bautista';
-        $to_email = 'rdavephp@gmail.com'; // LE.kevin.sutton@gmail.com
+        $to_email = 'rdavephp@gmail.com'; //LE.kevin.sutton@gmail.com
         $data = [
             'data'=>$session_data
         ];
@@ -53,18 +53,23 @@ class SignupController extends Controller
             $message->from('laggy80@gmail.com','Laggy80');
         });
 
-        return redirect(route('signup.success'));
+        return redirect(route('onboarding_survey.success'));
     }
 
 
     
     public function success(Request $request){
-        return view('pages/success');
         $request->session()->flush();
+        return view('pages/success');
+        
     }
     public function cancel(){
         return view('pages/cancel');
         $request->session()->flush();
+    }
+    public function onboardingSurveySuccess(Request $request){
+        $request->session()->flush();
+        return view('pages/onboarding_survey_success');
     }
 
 }

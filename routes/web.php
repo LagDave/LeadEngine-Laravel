@@ -10,7 +10,7 @@ Route::get('/signup/plans', 'SignupController@plans')->name('signup.plans');
 Route::get('/onboarding_survey', 'SignupController@surveyPage')->name('signup.survey');
 Route::post('/signup', 'SignupController@validateForm')->name('signup.validateForm');
 Route::get('/signup/sendMail', 'SignupController@sendMail')->name('signup.sendMail');
-
+Route::get('/onboarding_survey/success', 'SignupController@onboardingSurveySuccess')->name('onboarding_survey.success');
 
 Route::get('/signup/success', 'SignupController@success')->name('signup.success');
 Route::get('/signup/cancel', 'SignupController@cancel')->name('signup.cancel');
