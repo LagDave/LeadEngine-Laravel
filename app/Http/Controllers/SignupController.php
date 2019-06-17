@@ -7,9 +7,7 @@ use Illuminate\Support\Facades\Mail;
 
 class SignupController extends Controller
 {
-    // public function __construct(){
-    //     $this->middleware('registered')->except(['index', 'validateForm']);
-    // }
+
     public function index(){
         return view('pages/signup/signup_first_step');
     }
@@ -37,19 +35,20 @@ class SignupController extends Controller
         
         return redirect(route('signup.sendMail'));
     }
-        
+    
+
     public function sendMail(Request $request){
 
         $session_data = $request->session()->get('data');
         $to_name = 'Daniel Bautista';
-        $to_email = 'rdavephp@gmail.com'; //LE.kevin.sutton@gmail.com
+        $to_email = 'LE.kevin.sutton@gmail.com'; //LE.kevin.sutton@gmail.com
         $data = [
             'data'=>$session_data
         ];
 
         Mail::send('emails.mail', $data, function($message) use ($to_name, $to_email) {
             $message->to($to_email, $to_name)
-                ->subject('A new client has Signed Up!');
+                ->subject('Data from Onboarding Survey Received!');
             $message->from('laggy80@gmail.com','Laggy80');
         });
 

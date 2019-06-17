@@ -35,7 +35,7 @@ class WhiteLabelController extends Controller
 
         unset($session_data['_token']);
         $to_name = 'Daniel Bautista';
-        $to_email = 'rdavephp@gmail.com'; // LE.kevin.sutton@gmail.com
+        $to_email = 'LE.kevin.sutton@gmail.com'; // LE.kevin.sutton@gmail.com
         $data = [
             'data'=>$session_data,
         ];

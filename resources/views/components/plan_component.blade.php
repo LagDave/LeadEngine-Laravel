@@ -8,27 +8,27 @@
                     <div class="pricing-stats-table">
                         <table style='width:100%; margin-top:10px;'>
                             <tr>
-                                <td class='text-primary text-small text-center text-grey'><p>100/day connection request or<br>a total of 3,000/month</p></td>
+                                <td class='text-primary text-small text-grey'><p>100/day connection request or<br>a total of 3,000/month</p></td>
                             </tr>
                             
                             <tr>
-                                <td class='text-primary text-small text-center text-grey'><p>500 to 700 contact details of new<br>connections compiled in a CSV file  </p></td>
+                                <td class='text-primary text-small text-grey'><p>500 to 700 contact details of new<br>connections compiled in a CSV file  </p></td>
                             </tr>
                             
                             <tr>
-                                <td class='text-primary text-small text-center text-grey'><p>Custom auto-messaging to new<br>connections (OPTIONAL)</p></td>
+                                <td class='text-primary text-small text-grey'><p>Custom auto-messaging to new<br>connections (OPTIONAL)</p></td>
                             </tr>
                         
                             <tr>
-                                <td class='text-primary text-small text-center text-grey'><p>Dedicated account manager</p></td>
+                                <td class='text-primary text-small text-grey'><p>Dedicated account manager</p></td>
                             </tr>
                         
                             <tr>
-                                <td class='text-primary text-small text-center text-grey'><p>24/7 technical support</p></td>
+                                <td class='text-primary text-small text-grey'><p>24/7 technical support</p></td>
                             </tr>
                         
                             <tr>
-                                <td class='text-primary text-small text-center text-grey'><p>Inbox cleaner</p></td>
+                                <td class='text-primary text-small text-grey'><p>Inbox cleaner</p></td>
                             </tr>
                         </table>
                         
@@ -67,23 +67,23 @@
                     <div class="pricing-stats-table">
                         <table  style='margin-top:10px;width:100%;'>
                             <tr>
-                                <td class='text-center text-primary text-grey text-small'>All Features of Standard Plan</td>
+                                <td class='text-primary text-grey text-small'><p>All Features of Standard Plan</p></td>
                             </tr>
                             
                             <tr>
-                                <td class='text-center text-medium text-bold text-primary'>+</td>
+                                <td class='text-medium text-bold text-primary'><p>+</p></td>
                             </tr>
                             
                             <tr>
-                                <td class='text-center text-primary text-grey text-small'>Email Marketing Campaign</td>
+                                <td class='text-primary text-grey text-small'><p>Email Marketing Campaign</p></td>
                             </tr>
                         
                             <tr>
-                                <td class='text-center text-primary text-grey text-small'>Follow up automation</td>
+                                <td class='text-primary text-grey text-small'><p>Follow up automation</p></td>
                             </tr>
                         
                             <tr>
-                                <td class='text-center text-primary text-grey text-small'>Custom Email Template</td>
+                                <td class='text-primary text-grey text-small'><p>Custom Email Template</p></td>
                             </tr>
                         </table>
                         
