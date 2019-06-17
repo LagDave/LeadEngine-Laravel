@@ -88,7 +88,7 @@
                             </tr>
                             
                             <tr>
-                                <td class='text-medium text-bold text-primary'><p>+</p></td>
+                                <td class='text-medium text-center text-bold text-primary'><p>+</p></td>
                             </tr>
                             
                             <tr>

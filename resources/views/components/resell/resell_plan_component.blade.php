@@ -63,28 +63,28 @@
                     <div class="price-and-calculator-container">
                     <p style='background:#EF5563; margin:0; border-radius:5px 5px 0 0; padding:10px 0;' class="text-white pricing-title text-mednorm text-primary text-center">PREMIUM</p>
     
-                        <div class="pricing-stats-table">
-                        <table  style='margin-top:10px;width:100%;'>
-                            <tr>
-                                <td class='text-primary text-grey text-small'><p>All Features of Standard Plan</p></td>
-                            </tr>
+                    <div class="pricing-stats-table">
+                            <table  style='margin-top:10px;width:100%;'>
+                                <tr>
+                                    <td class='text-primary text-grey text-small'><p>All Features of Standard Plan</p></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class='text-medium text-center text-bold text-primary'><p>+</p></td>
+                                </tr>
+                                
+                                <tr>
+                                    <td class='text-primary text-grey text-small'><p>Email Marketing Campaign</p></td>
+                                </tr>
                             
-                            <tr>
-                                <td class='text-medium text-bold text-primary'><p>+</p></td>
-                            </tr>
+                                <tr>
+                                    <td class='text-primary text-grey text-small'><p>Follow up automation</p></td>
+                                </tr>
                             
-                            <tr>
-                                <td class='text-primary text-grey text-small'><p>Email Marketing Campaign</p></td>
-                            </tr>
-                        
-                            <tr>
-                                <td class='text-primary text-grey text-small'><p>Follow up automation</p></td>
-                            </tr>
-                        
-                            <tr>
-                                <td class='text-primary text-grey text-small'><p>Custom Email Template</p></td>
-                            </tr>
-                        </table>
+                                <tr>
+                                    <td class='text-primary text-grey text-small'><p>Custom Email Template</p></td>
+                                </tr>
+                            </table>
                             
                         </div>
     
